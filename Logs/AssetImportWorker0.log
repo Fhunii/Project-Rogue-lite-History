@@ -243,3 +243,21 @@ Received Import Request.
 Start importing Assets/Scripts/TestScripts/Player/PlayerHP.cs using Guid(bee0009a119510c45a53977ed55ebf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb060826de1cfdb81c76a4400f5e0582') in 0.0155049 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6547 unused Assets / (5.0 MB). Loaded Objects now: 7344.
+Memory consumption went from 178.1 MB to 173.1 MB.
+Total: 15.857700 ms (FindLiveObjects: 0.770300 ms CreateObjectMapping: 1.042600 ms MarkObjects: 10.289700 ms  DeleteObjects: 3.752800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.331296 seconds.
+  path: Assets/Scripts/TestScripts/Player/PlayerHP.cs
+  artifactKey: Guid(bee0009a119510c45a53977ed55ebf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestScripts/Player/PlayerHP.cs using Guid(bee0009a119510c45a53977ed55ebf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0626126352d5db939111da6999f60f2') in 0.0076306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
