@@ -5,6 +5,7 @@ using UnityEngine.UI;//UIを使用する際は宣言が必要
  
 public class PlayerHP : MonoBehaviour
 {
+    
     [SerializeField] StatusData statusdata;
     public Slider hpSlider;
     float HP;
