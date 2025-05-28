@@ -367,6 +367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 517292477}
   - component: {fileID: 517292478}
+  - component: {fileID: 517292479}
   m_Layer: 5
   m_Name: HPber
   m_TagString: Untagged
@@ -446,6 +447,21 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &517292479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517292476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d895d6a6cce9a8a4bb727a466130cda2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasRectTfm: {fileID: 448515436}
+  targetTfm: {fileID: 662527116}
+  worldAngle: {x: 0, y: 0}
 --- !u!1 &662527112
 GameObject:
   m_ObjectHideFlags: 0
