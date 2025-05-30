@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -30,12 +29,9 @@ public class HPbarController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        _parent = transform.parent.transform.localRotation.eulerAngles;
-        if (before != _parent)
-        {
-            transform.localRotation = Quaternion.Euler(def - _parent);
-        }
-        before = transform.localRotation.eulerAngles;
+        // 親の回転補正は不要
+        // ワールド座標をスクリーン座標に変換
+        Vector3 screenPos = Camera.main.WorldToScreenPoint(targetTfm.position + offset);
+        myRectTfm.position = screenPos;
     }
 }
