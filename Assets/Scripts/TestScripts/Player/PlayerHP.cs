@@ -16,7 +16,7 @@ public class PlayerHP : MonoBehaviour
         if (hpBar != null)
         {
             hpBar.maxValue= statusdata.MAXHP;
-            hpBar.value = statusdata.MAXHP;
+            hpBar.value = 20;
         }
         HP = statusdata.MAXHP;
     }
