@@ -34,6 +34,7 @@ public class HPbarController : MonoBehaviour
         }
     }
 
+    // Update is called once per frame
     void Update()
     {
         // 親の回転に基づいて回転補正を処理
