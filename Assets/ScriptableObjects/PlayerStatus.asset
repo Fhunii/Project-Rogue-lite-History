@@ -15,6 +15,6 @@ MonoBehaviour:
   MAXHP: 100
   ATK: 1
   SPEED: 2
-  NockBack: 0
+  NockBack: 4
   SPAN: 0
   EXP: 0
