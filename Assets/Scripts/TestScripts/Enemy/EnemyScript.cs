@@ -74,7 +74,7 @@ public class EnemyScript : MonoBehaviour
             {
                 currentTime = 0f;
                 MUTEKI = false; // 無敵状態を解除
-                rb.velocity = new Vector2(0, 0); // ノックバックを停止
+                rb.linearVelocity = new Vector2(0, 0); // ノックバックを停止
             }
         }
 
@@ -114,6 +114,6 @@ public class EnemyScript : MonoBehaviour
         float destination = thisPos.x - Player.transform.position.x;
         
         // プレイヤーと逆方向に飛んでいく
-        rb.velocity = new Vector2(destination * nockback, 0);
+        rb.linearVelocity = new Vector2(destination * nockback, 0);
     }
 }
