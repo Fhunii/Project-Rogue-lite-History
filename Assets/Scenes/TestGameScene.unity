@@ -627,6 +627,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statusdata: {fileID: 11400000, guid: 2445b473f69712148bd17c80ad061894, type: 2}
+  spriteRenderer: {fileID: 662527115}
+  punch: {fileID: 307657749}
+  imageIdle: {fileID: 4334783836991956000, guid: f88f88acd6e11564587038cc1307dfa4, type: 3}
+  imagePunch: {fileID: -3269485651806180331, guid: 72d06ac782445b64cb29bddff79b90c8, type: 3}
 --- !u!61 &662527114
 BoxCollider2D:
   m_ObjectHideFlags: 0
