@@ -6,10 +6,15 @@ public class PlayerScript : MonoBehaviour
 {
 [SerializeField] StatusData statusdata;//☑
 Vector3 worldAngle;//角度を代入する
- 
-void Start(){}
- 
- void Update()
+public SpriteRenderer spriteRenderer;
+private float currentTime;
+[SerializeField]GameObject punch;
+[SerializeField] Sprite imageIdle;
+[SerializeField] Sprite imagePunch;
+
+void Start() { }
+
+    void Update()
     {
         if (Input.GetKey(KeyCode.UpArrow)) {//矢印上が押されている時に実行される
             if (this.transform.position.y < 5)  {
