@@ -66,7 +66,6 @@ public class EnemyScript : MonoBehaviour
         if (!MUTEKI)
         {//無敵状態じゃないときに攻撃を受ける
             HP -= damage;//HP減少
-            Debug.Log(HP);//現在のHPを表示
             MUTEKI = true;//無敵状態にする
         }
         
