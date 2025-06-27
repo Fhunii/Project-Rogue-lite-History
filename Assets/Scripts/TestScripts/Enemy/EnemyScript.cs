@@ -9,6 +9,9 @@ public class EnemyScript : MonoBehaviour
 
     [SerializeField] StatusData statusdata;//☑
 
+    [SerializeField] GameObject Hitmark;//☑
+    Vector3 Hitpos;//☑
+
     bool MUTEKI;//攻撃を受けるかどうかの切り替えを行う//☑
     private float HP;
     private float currentTime = 0f;//☑
@@ -52,11 +55,16 @@ public class EnemyScript : MonoBehaviour
                 currentTime = 0f;
                 MUTEKI = false;//無敵状態終わらせる
                 rb.linearVelocity = new Vector2(0, 0);//ノックバックをとめる   
+                Hitmark.GetComponent<SpriteRenderer>().enabled = false; //ヒットマーク画像を非表示に戻す☑
             }
 
         }
         if (HP <= 0)//HPが0以下になったら消える
         {
+            Hitpos = this.transform.position;
+            Hitpos.z = -2f;
+            Hitmark.transform.position = Hitpos;
+            Hitmark.GetComponent<SpriteRenderer>().enabled = true;//ヒットマーク画像を表示する☑
             Destroy(this.gameObject);
         }
     }
@@ -64,8 +72,14 @@ public class EnemyScript : MonoBehaviour
     {
 
         if (!MUTEKI)
-        {//無敵状態じゃないときに攻撃を受ける
+        {   //無敵状態じゃないときに攻撃を受ける
+
+            Hitpos = this.transform.position;
+            Hitpos.z = -2f;//Z軸を敵キャラよりも手前に設定
+            Hitmark.transform.position = Hitpos;//ヒットマークの画像位置を移動させる
+            Hitmark.GetComponent<SpriteRenderer>().enabled = true; //ヒットマーク画像を表示する☑
             HP -= damage;//HP減少
+            Debug.Log(HP);//現在のHPを表示
             MUTEKI = true;//無敵状態にする
         }
         
