@@ -61,7 +61,6 @@ public class PlayerScript : MonoBehaviour
             
         }
         currentTime += Time.deltaTime;//経過時間をカウントする
-        Debug.Log(currentTime);//経過時間をコンソールに表示する
     }
 
     IEnumerator Punchswitch()
