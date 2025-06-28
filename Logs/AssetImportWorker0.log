@@ -1026,3 +1026,19 @@ Received Import Request.
 Start importing Assets/Sprites/TestSprites/TestExpOrb.png using Guid(f9387055f1416e24882ae0f2e153be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05750849dc3985b443871f5b7e47330e') in 0.0581254 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 280.970708 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(2a374530050593f4585b72c2f55be5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(2a374530050593f4585b72c2f55be5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55dff3dc9a81534bf09e990fd4abb871') in 0.001037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.888088 seconds.
+  path: Assets/Fonts/BestTen-CRT.otf
+  artifactKey: Guid(4ff7cb153ad61f747b64e8c7360ccad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/BestTen-CRT.otf using Guid(4ff7cb153ad61f747b64e8c7360ccad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15df5670caf14073a53d76ff873c9037') in 0.0457307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
