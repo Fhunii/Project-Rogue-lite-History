@@ -725,3 +725,11 @@ Memory consumption went from 179.9 MB to 175.1 MB.
 Total: 16.500300 ms (FindLiveObjects: 0.878200 ms CreateObjectMapping: 1.022900 ms MarkObjects: 10.787100 ms  DeleteObjects: 3.810000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1832.174104 seconds.
+  path: Assets/Prefab/TestPrefab/Ray.prefab
+  artifactKey: Guid(303be1d6dae12b34eb5d0989a7741938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TestPrefab/Ray.prefab using Guid(303be1d6dae12b34eb5d0989a7741938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c6f0b31f14ba5ec83519734d42eb3e1') in 0.856688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+

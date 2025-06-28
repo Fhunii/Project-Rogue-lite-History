@@ -986,3 +986,19 @@ Memory consumption went from 186.3 MB to 181.3 MB.
 Total: 16.200900 ms (FindLiveObjects: 0.847700 ms CreateObjectMapping: 1.015300 ms MarkObjects: 10.342100 ms  DeleteObjects: 3.994200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1131.205563 seconds.
+  path: Assets/Prefab/TestPrefab/Drone.prefab
+  artifactKey: Guid(6f41d60d5d64f6a46ad9c31d53a64c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TestPrefab/Drone.prefab using Guid(6f41d60d5d64f6a46ad9c31d53a64c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '953265f25cc04a4423d5bd0066cf8409') in 0.7764795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.206383 seconds.
+  path: Assets/Sprites/TestSprites/TestExpOrb.png
+  artifactKey: Guid(f9387055f1416e24882ae0f2e153be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TestSprites/TestExpOrb.png using Guid(f9387055f1416e24882ae0f2e153be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe02dbc49b404cead1090463dac8264e') in 0.026617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
