@@ -1778,3 +1778,11 @@ Memory consumption went from 192.9 MB to 187.7 MB.
 Total: 16.263400 ms (FindLiveObjects: 0.900600 ms CreateObjectMapping: 0.926800 ms MarkObjects: 10.148400 ms  DeleteObjects: 4.285300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 184.804539 seconds.
+  path: Assets/Prefab/TestPrefab/Enemy1.prefab
+  artifactKey: Guid(8e1357d5753e9d14cb9567d8df23493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TestPrefab/Enemy1.prefab using Guid(8e1357d5753e9d14cb9567d8df23493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a2fe3f69c738e5d5fa6be1b4d32bd06') in 0.8343939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+

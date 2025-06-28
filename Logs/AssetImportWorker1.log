@@ -1365,3 +1365,11 @@ Memory consumption went from 187.9 MB to 182.8 MB.
 Total: 16.774600 ms (FindLiveObjects: 0.994200 ms CreateObjectMapping: 1.156900 ms MarkObjects: 10.233200 ms  DeleteObjects: 4.388400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 121.788884 seconds.
+  path: Assets/Prefab/TestPrefab/ExpOrb.prefab
+  artifactKey: Guid(71111c263880764468268536136a370f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TestPrefab/ExpOrb.prefab using Guid(71111c263880764468268536136a370f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd4e09d9cb5ba2292c945374709d2cad') in 0.7759092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
