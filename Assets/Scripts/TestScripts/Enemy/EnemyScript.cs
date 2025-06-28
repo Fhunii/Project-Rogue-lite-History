@@ -15,6 +15,9 @@ public class EnemyScript : MonoBehaviour
     bool MUTEKI;//攻撃を受けるかどうかの切り替えを行う//☑
     private float HP;
     private float currentTime = 0f;//☑
+    float LifetimeCount = 0f;
+    float Lifetime = 0;
+    [SerializeField] GameObject EXP_prefab;
     Vector3 diff;
     Vector3 vector;
     private Rigidbody2D rb;//☑
@@ -65,7 +68,17 @@ public class EnemyScript : MonoBehaviour
             Hitpos.z = -2f;
             Hitmark.transform.position = Hitpos;
             Hitmark.GetComponent<SpriteRenderer>().enabled = true;//ヒットマーク画像を表示する☑
-            Destroy(this.gameObject);
+            LifetimeCount += Time.deltaTime;
+            if (LifetimeCount > Lifetime)
+            {
+                for (int i = 0; statusdata.EXP > i; i++)
+                {
+
+                    var exp = Instantiate(EXP_prefab, transform.position, transform.rotation);
+                    
+                }
+		        Destroy(this.gameObject);
+	        }
         }
     }
     public void Damage(float damage)

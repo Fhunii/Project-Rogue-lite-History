@@ -151,6 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statusdata: {fileID: 11400000, guid: 8defcd7cec5e9c647b75035fca17f26b, type: 2}
   Hitmark: {fileID: 7760387020017008887}
+  EXP_prefab: {fileID: 6472063278381984312, guid: 71111c263880764468268536136a370f, type: 3}
 --- !u!50 &5923386339397668296
 Rigidbody2D:
   serializedVersion: 5
