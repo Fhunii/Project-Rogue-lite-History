@@ -1002,3 +1002,27 @@ Received Import Request.
 Start importing Assets/Sprites/TestSprites/TestExpOrb.png using Guid(f9387055f1416e24882ae0f2e153be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe02dbc49b404cead1090463dac8264e') in 0.026617 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 211.126161 seconds.
+  path: Assets/Sprites/TestSprites/TestExpOrb.png
+  artifactKey: Guid(f9387055f1416e24882ae0f2e153be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TestSprites/TestExpOrb.png using Guid(f9387055f1416e24882ae0f2e153be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc65ebfde5a601377fead611aa4708cb') in 0.0087517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.551553 seconds.
+  path: Assets/Sprites/TestSprites/TestExpOrb.png
+  artifactKey: Guid(f9387055f1416e24882ae0f2e153be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TestSprites/TestExpOrb.png using Guid(f9387055f1416e24882ae0f2e153be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ef2090047c259c8839532529f066f9f') in 0.0106126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.476010 seconds.
+  path: Assets/Sprites/TestSprites/TestExpOrb.png
+  artifactKey: Guid(f9387055f1416e24882ae0f2e153be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TestSprites/TestExpOrb.png using Guid(f9387055f1416e24882ae0f2e153be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05750849dc3985b443871f5b7e47330e') in 0.0581254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+

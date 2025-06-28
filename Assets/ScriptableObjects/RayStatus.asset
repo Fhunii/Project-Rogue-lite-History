@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: RayStatus
   m_EditorClassIdentifier: 
   MAXHP: 0
-  ATK: 0
-  SPEED: 0
+  ATK: 1
+  SPEED: 2
   NockBack: 0
-  SPAN: 0
+  SPAN: 5
   EXP: 0

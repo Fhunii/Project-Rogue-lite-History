@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,12 +116,12 @@ TextureImporter:
       name: TestExpOrb_0
       rect:
         serializedVersion: 2
-        x: 239
-        y: 39
-        width: 802
-        height: 1162
+        x: 0
+        y: 0
+        width: 1280
+        height: 1280
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2badb9d8d6466804dacdb9c09b3bee01
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TestExpOrb_0: 1220936997260593246
+      TestExpOrb_1: -1323185730
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
