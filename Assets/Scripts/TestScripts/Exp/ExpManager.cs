@@ -21,5 +21,7 @@ public class ExpManeger : MonoBehaviour
     {//経験値を拾った時に呼び出される
         Exp++;
         ExpText.text = Exp.ToString();
+        audioSource = GetComponent<AudioSource>();
+        audioSource.PlayOneShot(getsound);
     }
 }
