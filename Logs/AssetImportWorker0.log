@@ -194,3 +194,59 @@ Received Import Request.
 Start importing Assets/Prefab/TestPrefab/Enemy2.prefab using Guid(146f3534c8b6a27449b6a01fa8aac975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0a205775720e23ecb2d26880a2ceab9') in 0.6383884 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
+========================================================================
+Received Import Request.
+  Time since last request: 29.145485 seconds.
+  path: Assets/Sprites/TestSprites/TestEnemy2.png
+  artifactKey: Guid(d9c2602aebd39c748857d7f928a9e93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TestSprites/TestEnemy2.png using Guid(d9c2602aebd39c748857d7f928a9e93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b200bca18c5b9ee02edc4c623803a6e4') in 0.033481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.952900 seconds.
+  path: Assets/Prefab/TestPrefab/Enemy2.prefab
+  artifactKey: Guid(146f3534c8b6a27449b6a01fa8aac975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TestPrefab/Enemy2.prefab using Guid(146f3534c8b6a27449b6a01fa8aac975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d076cd45c04c4fd3d1aba6adcf9809b') in 0.0327481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.097298 seconds.
+  path: Assets/Prefab/TestPrefab/Enemy2.prefab
+  artifactKey: Guid(146f3534c8b6a27449b6a01fa8aac975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TestPrefab/Enemy2.prefab using Guid(146f3534c8b6a27449b6a01fa8aac975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a63efaed40ffff7b3213b85b6d3712b2') in 0.0162663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.577453 seconds.
+  path: Assets/ScriptableObjects/Enemy1 1.asset
+  artifactKey: Guid(23861062b355c0c4595bdfa3ee615559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Enemy1 1.asset using Guid(23861062b355c0c4595bdfa3ee615559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2782e8acaff3037179a9aa145e34c28') in 0.0013326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.581643 seconds.
+  path: Assets/ScriptableObjects/Enemy2.asset
+  artifactKey: Guid(23861062b355c0c4595bdfa3ee615559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Enemy2.asset using Guid(23861062b355c0c4595bdfa3ee615559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be0408ca6e2dd4f5f465dec04708b696') in 0.0013281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.081738 seconds.
+  path: Assets/ScriptableObjects/Enemy2.asset
+  artifactKey: Guid(23861062b355c0c4595bdfa3ee615559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Enemy2.asset using Guid(23861062b355c0c4595bdfa3ee615559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ab287db548ebc18612e72ae67b7de16') in 0.0013914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.415316 seconds.
+  path: Assets/Prefab/TestPrefab/Enemy1.prefab
+  artifactKey: Guid(8e1357d5753e9d14cb9567d8df23493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TestPrefab/Enemy1.prefab using Guid(8e1357d5753e9d14cb9567d8df23493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '817827d960d1ab70fdfcb8afe5b0b23c') in 0.0263347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
