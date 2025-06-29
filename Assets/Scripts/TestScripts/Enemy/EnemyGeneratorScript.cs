@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class EnemyGeneratorScript : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject EnemyPrefab; // 生成する用の敵キャラPrefabを読み込む
+    [SerializeField] private GameObject EnemyPrefab; // 生成する用の敵キャラPrefabを読み込む
+    [SerializeField] private GameObject EliteenemyPrefab;
 
     GameObject Player;
     Vector2 PlayerPos; // キャラクターの位置を代入する変数
     private float currentTime = 0f;
     private float span = 3f;
+
+    private float EnemyUpdate = 15f;
 
     // 生成される方向を決める乱数用の変数
     int rndUD; // 上下
@@ -25,11 +27,21 @@ public class EnemyGeneratorScript : MonoBehaviour
     void Update()
     {
         currentTime += Time.deltaTime; // 時間経過をcurrentTimeに代入し時間を測る
-        if (currentTime > span) // spanで設定した3秒を越えたら処理を実行
-        {
-            EnemyGenerate(EnemyPrefab);
-            currentTime = 0f;
+        if (Time.time<EnemyUpdate) {
+            if (currentTime > span)//spanで設定した3秒を越えたら処理を実行
+            {
+                EnemyGenerate(EnemyPrefab);
+                currentTime = 0f;
+            }
         }
+	    if (EnemyUpdate<Time.time) { 
+		    if (currentTime > span)//3秒ごと
+            {
+                // Debug.Log(span);
+                EnemyGenerate(EliteenemyPrefab);
+                currentTime = 0f;
+            }
+	    }
     }
 
     public void EnemyGenerate(GameObject Enemy)
