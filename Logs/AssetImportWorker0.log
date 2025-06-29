@@ -543,3 +543,68 @@ Received Import Request.
 Start importing Assets/Prefab/TestPrefab/Enemy2.prefab using Guid(146f3534c8b6a27449b6a01fa8aac975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b0e9284b5c7907f6abb4bde9fbcf703') in 1.0022992 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
+========================================================================
+Received Import Request.
+  Time since last request: 785.730658 seconds.
+  path: Assets/Scripts/TestScripts/Exp/ExpManager.cs
+  artifactKey: Guid(de16ba996f7ed264b96f938c84839b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestScripts/Exp/ExpManager.cs using Guid(de16ba996f7ed264b96f938c84839b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '920d4c8c01fd22b1307f922b3200fb65') in 0.0022954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.037 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.357 seconds
+Domain Reload Profiling: 3394ms
+	BeginReloadAssembly (734ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (86ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (282ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1179ms)
+		LoadAssemblies (1043ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (381ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (342ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1358ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1000ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (657ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6564 unused Assets / (4.8 MB). Loaded Objects now: 7460.
+Memory consumption went from 187.4 MB to 182.6 MB.
+Total: 18.186100 ms (FindLiveObjects: 1.208800 ms CreateObjectMapping: 1.207300 ms MarkObjects: 11.449600 ms  DeleteObjects: 4.315200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 560.025987 seconds.
+  path: Assets/Scripts/TestScripts/Exp/ExpManager.cs
+  artifactKey: Guid(de16ba996f7ed264b96f938c84839b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestScripts/Exp/ExpManager.cs using Guid(de16ba996f7ed264b96f938c84839b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a771449fe226b9a7807a4ee04c922cf9') in 0.0312864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
