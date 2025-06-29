@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4758e08bb3792d4449ce7f8d8e7f8f11, type: 3}
   m_Name: Enemy2
   m_EditorClassIdentifier: 
-  MAXHP: 7
+  MAXHP: 10
   ATK: 1
   SPEED: 0.5
   NockBack: 0
