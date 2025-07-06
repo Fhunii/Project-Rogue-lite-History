@@ -9,8 +9,6 @@ public class RayScript : MonoBehaviour
     [SerializeField] StatusData statusdata;
     Vector3 diff;
     
-    
-    
         void Start()
         {
 
@@ -22,6 +20,7 @@ public class RayScript : MonoBehaviour
         
         if (closeEnemy != null)
         {//敵が見つかった時
+        
             transform.position = Vector2.MoveTowards(transform.position, closeEnemy.transform.position, statusdata.SPEED * Time.deltaTime);
             diff = (closeEnemy.transform.position - this.transform.position).normalized;
             this.transform.rotation = Quaternion.FromToRotation(Vector3.right, diff);
