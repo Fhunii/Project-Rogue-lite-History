@@ -488,3 +488,4 @@ Memory consumption went from 178.1 MB to 173.4 MB.
 Total: 13.937300 ms (FindLiveObjects: 0.827600 ms CreateObjectMapping: 0.995800 ms MarkObjects: 8.449800 ms  DeleteObjects: 3.662400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+AssetImportWorkerClient::OnTransportError - code=10054 error=既存の接続はリモート ホストに強制的に切断されました。
