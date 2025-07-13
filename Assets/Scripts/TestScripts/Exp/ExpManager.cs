@@ -10,12 +10,9 @@ public  class ExpManeger : MonoBehaviour
     public static ExpManeger instance;
     [SerializeField] GameObject LevelUPpanelUI;
     [SerializeField] Text LevelText;
-    [SerializeField] Text ItemName;
-    [SerializeField] Transform PlayerTrans;
-    [SerializeField] GameObject Player; // Add this line to reference the Player GameObject
+    [SerializeField] GameObject Player;
     [SerializeField] GameObject Particle;
     [SerializeField] Text LevelUPText;
-    public GamemanegerScript GMscript;
     public static int currentExp;
     public static int CurrentLv;
     int NextLevel;
