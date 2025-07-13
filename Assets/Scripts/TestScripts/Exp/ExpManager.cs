@@ -69,6 +69,7 @@ public  class ExpManeger : MonoBehaviour
             Debug.Log("レベルアップ"+CurrentLv +"→"+ NextLevel);
             CurrentLv += 1;
             NextLevel += 1;
+            NeedEXP = EXP[CurrentLv, 1];
             LevelText.text = "Level:"+CurrentLv.ToString();
 		StartCoroutine(LevelUP());
         }
