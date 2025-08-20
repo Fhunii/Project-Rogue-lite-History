@@ -6,7 +6,7 @@ public class RayScript : MonoBehaviour
 {
     private GameObject[] targets;
     private GameObject closeEnemy;
-    [SerializeField] StatusData statusdata;
+    [SerializeField] RuntimeStatus runtimeStatus;
     Vector3 diff;
     
         void Start()
@@ -20,8 +20,8 @@ public class RayScript : MonoBehaviour
         
         if (closeEnemy != null)
         {//敵が見つかった時
-        
-            transform.position = Vector2.MoveTowards(transform.position, closeEnemy.transform.position, statusdata.SPEED * Time.deltaTime);
+
+            transform.position = Vector2.MoveTowards(transform.position, closeEnemy.transform.position, runtimeStatus.SPEED * Time.deltaTime);
             diff = (closeEnemy.transform.position - this.transform.position).normalized;
             this.transform.rotation = Quaternion.FromToRotation(Vector3.right, diff);
 
@@ -56,8 +56,8 @@ public class RayScript : MonoBehaviour
         {
             if (other.gameObject.tag == "Enemy")
             {
-                other.gameObject.GetComponent<EnemyScript>().Damage(statusdata.ATK);
-                other.gameObject.GetComponent<EnemyScript>().NockBack(statusdata.NockBack);
+                other.gameObject.GetComponent<EnemyScript>().Damage(runtimeStatus.ATK);
+                other.gameObject.GetComponent<EnemyScript>().NockBack(runtimeStatus.NockBack);
                 Destroy(gameObject);//自分自身を消す
             }
         }

@@ -4,7 +4,7 @@ using UnityEngine;
  
 public class PunchScript : MonoBehaviour
 {
-    [SerializeField] StatusData statusdata;
+    [SerializeField] RuntimeStatus runtimeStatus;
     public AudioClip sound;//☑
     AudioSource audioSource;//☑\
     void Start()
@@ -18,9 +18,9 @@ public class PunchScript : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             audioSource.PlayOneShot(sound);//☑
-            other.gameObject.GetComponent<EnemyScript>().Damage(statusdata.ATK);
-            other.gameObject.GetComponent<EnemyScript>().NockBack(statusdata.NockBack);
-   
+            other.gameObject.GetComponent<EnemyScript>().Damage(runtimeStatus.ATK);
+            other.gameObject.GetComponent<EnemyScript>().NockBack(runtimeStatus.NockBack);
+
         }
     }
 }

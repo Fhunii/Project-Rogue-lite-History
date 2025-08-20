@@ -665,7 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ebcb1ce8e02b046835b3dbbe768f7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statusdata: {fileID: 11400000, guid: 2445b473f69712148bd17c80ad061894, type: 2}
+  runtimeStatus: {fileID: 11400000, guid: 0a598bfa4ee358e4fa429225c0e02a94, type: 2}
   sound: {fileID: 8300000, guid: e897829097c69be4999c4debd2dc4881, type: 3}
 --- !u!82 &307657754
 AudioSource:
@@ -941,7 +941,7 @@ MonoBehaviour:
   argmentrnd: 0
   Imagename: {fileID: 477528432}
   drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
-  statusdata: {fileID: 11400000, guid: 2445b473f69712148bd17c80ad061894, type: 2}
+  runtimeStatus: {fileID: 0}
 --- !u!114 &477528431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1121,6 +1121,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 662527116}
     m_Modifications:
+    - target: {fileID: 995023730382193499, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
+      propertyPath: runtimeStatus
+      value: 
+      objectReference: {fileID: 11400000, guid: a5fa8b3a9a9242b4a8fec41b891bcb22, type: 2}
     - target: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
       propertyPath: m_Name
       value: Drone
@@ -1482,7 +1486,7 @@ MonoBehaviour:
   argmentrnd: 0
   Imagename: {fileID: 805541892}
   drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
-  statusdata: {fileID: 11400000, guid: 2445b473f69712148bd17c80ad061894, type: 2}
+  runtimeStatus: {fileID: 0}
 --- !u!114 &805541891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1985,7 +1989,7 @@ MonoBehaviour:
   argmentrnd: 0
   Imagename: {fileID: 1432337266}
   drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
-  statusdata: {fileID: 11400000, guid: 2445b473f69712148bd17c80ad061894, type: 2}
+  runtimeStatus: {fileID: 0}
 --- !u!114 &1432337269
 MonoBehaviour:
   m_ObjectHideFlags: 0

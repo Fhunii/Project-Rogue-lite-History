@@ -18,7 +18,7 @@ public class LevelUpPanel : MonoBehaviour
     public Image Imagename;
     //public GamemanegerScript GMscript;
     [SerializeField] GameObject drone;
-    [SerializeField] StatusData statusdata;
+    [SerializeField] RuntimeStatus runtimeStatus;
     // Start is called before the first frame update
     void Start()
     {
@@ -67,7 +67,7 @@ public class LevelUpPanel : MonoBehaviour
 
 	if (Imagename.sprite.name == "ItemPanel2_0") {
             Debug.Log("パンチを選択");
-	        statusdata.ATK++;
+	        runtimeStatus.ATK++;
         }
 
 	if (Imagename.sprite.name == "ItemPanel3_0") {
