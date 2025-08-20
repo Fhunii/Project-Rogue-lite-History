@@ -11,11 +11,7 @@ public class RayScript : MonoBehaviour
     
         void Start()
         {
-
             Search();//どの敵が一番近いかを比べる
-
-            runtimeStatus.Initialize(); 
-
         }
     
     void Update() {

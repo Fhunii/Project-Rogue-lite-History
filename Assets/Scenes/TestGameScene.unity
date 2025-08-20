@@ -941,7 +941,7 @@ MonoBehaviour:
   argmentrnd: 0
   Imagename: {fileID: 477528432}
   drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
-  runtimeStatus: {fileID: 0}
+  runtimeStatus: {fileID: 11400000, guid: 0a598bfa4ee358e4fa429225c0e02a94, type: 2}
 --- !u!114 &477528431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1486,7 +1486,7 @@ MonoBehaviour:
   argmentrnd: 0
   Imagename: {fileID: 805541892}
   drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
-  runtimeStatus: {fileID: 0}
+  runtimeStatus: {fileID: 11400000, guid: 0a598bfa4ee358e4fa429225c0e02a94, type: 2}
 --- !u!114 &805541891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1989,7 +1989,7 @@ MonoBehaviour:
   argmentrnd: 0
   Imagename: {fileID: 1432337266}
   drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
-  runtimeStatus: {fileID: 0}
+  runtimeStatus: {fileID: 11400000, guid: 0a598bfa4ee358e4fa429225c0e02a94, type: 2}
 --- !u!114 &1432337269
 MonoBehaviour:
   m_ObjectHideFlags: 0

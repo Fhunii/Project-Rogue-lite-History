@@ -6,12 +6,17 @@ public class RuntimeStatus : ScriptableObject
 {
     [SerializeField] private StatusData statusdata;
 
-    public float MAXHP { get; private set; }
-    public float ATK { get; private set; }
-    public float SPEED { get; private set; }
-    public float NockBack { get; private set; }
-    public float SPAN { get; private set; }
-    public int EXP { get; private set; }
+    public float MAXHP;
+    public float ATK;
+    public float SPEED;
+    public float NockBack;
+    public float SPAN;
+    public int EXP;
+
+    void Awake()
+    {
+        Initialize();
+    }
 
     public void Initialize()
     {
