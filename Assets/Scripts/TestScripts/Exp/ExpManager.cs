@@ -54,7 +54,7 @@ public  class ExpManeger : MonoBehaviour
         {
             instance = this;
         }
-          if (EXPBar != null)
+        if (EXPBar != null)
         {
             EXPBar.maxValue= NeedEXP;
             EXPBar.value = currentExp;
@@ -72,7 +72,7 @@ public  class ExpManeger : MonoBehaviour
             NextLevel += 1;
             NeedEXP = EXP[CurrentLv, 1];
             LevelText.text = "Level:"+CurrentLv.ToString();
-		StartCoroutine(LevelUP());
+		    StartCoroutine(LevelUP());
         }
         
     }

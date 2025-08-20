@@ -58,16 +58,19 @@ public class LevelUpPanel : MonoBehaviour
     {
         Imagename=this.gameObject.GetComponent<Image>();
         Debug.Log(Imagename.sprite.name);
-        if (Imagename.sprite.name == "ItemPanel1") {
-            var Drone = Instantiate(drone, transform.position, transform.rotation);//ドローンの生成
+        if (Imagename.sprite.name == "ItemPanel1_0")
+        {
+            //ドローンの生成
+            var Drone = Instantiate(drone, transform.position, transform.rotation);
+            Debug.Log("ドローンを選択");
         }
 
-	if (Imagename.sprite.name == "ItemPanel2") {
+	if (Imagename.sprite.name == "ItemPanel2_0") {
             Debug.Log("パンチを選択");
-	    statusdata.ATK++;
+	        statusdata.ATK++;
         }
 
-	if (Imagename.sprite.name == "ItemPanel3") {
+	if (Imagename.sprite.name == "ItemPanel3_0") {
             Debug.Log("聖水を選択");
         }
 
