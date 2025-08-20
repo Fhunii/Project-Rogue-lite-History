@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: RayRuntimeStatus
   m_EditorClassIdentifier: 
   statusdata: {fileID: 11400000, guid: 8dd3b874fc343534bbad784e0b94b208, type: 2}
+  MAXHP: 0
+  ATK: 1
+  SPEED: 2
+  NockBack: 0
+  SPAN: 5
+  EXP: 0
