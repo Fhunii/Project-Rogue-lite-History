@@ -54,11 +54,12 @@ public  class ExpManeger : MonoBehaviour
         {
             instance = this;
         }
-          if (EXPBar != null)
+        if (EXPBar != null)
         {
             EXPBar.maxValue= NeedEXP;
             EXPBar.value = currentExp;
         }
+        LevelUPpanelUI.GetComponent<Canvas>().enabled = false;
 	    audioSource = GetComponent<AudioSource>();
     }
 
@@ -71,7 +72,7 @@ public  class ExpManeger : MonoBehaviour
             NextLevel += 1;
             NeedEXP = EXP[CurrentLv, 1];
             LevelText.text = "Level:"+CurrentLv.ToString();
-		StartCoroutine(LevelUP());
+		    StartCoroutine(LevelUP());
         }
         
     }
@@ -85,13 +86,20 @@ public  class ExpManeger : MonoBehaviour
         EXPBar.value = currentExp;
         var confetti = Instantiate(Particle, PlayerPos, transform.rotation);
         LevelUPText.GetComponent<Text>().enabled = true;
+        leveluppanel();
         yield return new WaitForSeconds(2);//コルーチンで2秒遅延
         LevelUPText.GetComponent<Text>().enabled = false;
         
     }
 
-	public void ExpBarDraw() {//経験値を拾った時にEXPorbから呼び出される
-       
+	public void leveluppanel() {
+		LevelUPpanelUI.GetComponent<Canvas>().enabled = true;
+        Time.timeScale = 0;//ポーズをする
+	}
+
+    public void ExpBarDraw()
+    {//経験値を拾った時にEXPorbから呼び出される
+
         CumEXP++;
         currentExp++;
         EXPBar.value = currentExp;
@@ -99,6 +107,6 @@ public  class ExpManeger : MonoBehaviour
 
 }
 
-public class GamemanegerScript
+public class GameManagerScript
 {
 }

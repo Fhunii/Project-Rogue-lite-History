@@ -4,7 +4,7 @@ using UnityEngine;
 public class DroneScript : MonoBehaviour
 {
     [SerializeField] private GameObject RayPrefab;
-    [SerializeField] StatusData RayStatus;
+    [SerializeField] RuntimeStatus runtimeStatus;
     GameObject Player;
     Vector2 PlayerPos;
     Vector2 myPos;
@@ -28,9 +28,9 @@ public class DroneScript : MonoBehaviour
     void Update()
     {
         currentTime += Time.deltaTime;
-        if (currentTime > RayStatus.SPAN)
+        if (currentTime > runtimeStatus.SPAN)
         {
-            Debug.Log("RayStatus.SPAN:"+RayStatus.SPAN);
+            Debug.Log("RayStatus.SPAN:"+runtimeStatus.SPAN);
             RayGenerate();
             currentTime = 0f;
         }

@@ -199,5 +199,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RayPrefab: {fileID: 8083577912944176443, guid: 303be1d6dae12b34eb5d0989a7741938, type: 3}
-  RayStatus: {fileID: 11400000, guid: 8dd3b874fc343534bbad784e0b94b208, type: 2}
+  runtimeStatus: {fileID: 11400000, guid: a5fa8b3a9a9242b4a8fec41b891bcb22, type: 2}
   sound: {fileID: 8300000, guid: 225f1f1d3f71bbb468f525eaca0d3cb8, type: 3}
