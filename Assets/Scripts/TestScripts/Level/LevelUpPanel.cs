@@ -67,7 +67,8 @@ public class LevelUpPanel : MonoBehaviour
 
 	if (Imagename.sprite.name == "ItemPanel2_0") {
             Debug.Log("パンチを選択");
-	        runtimeStatus.ATK++;
+	        runtimeStatus.AddATK(1);
+            Debug.Log("ATK:"+runtimeStatus.ATK);
         }
 
 	if (Imagename.sprite.name == "ItemPanel3_0") {

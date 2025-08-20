@@ -4,12 +4,28 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Data/Create RuntimeStatus")]
 public class RuntimeStatus : ScriptableObject
 {
-    [SerializeField] StatusData statusdata;
-    public float MAXHP { get { return statusdata.MAXHP; } set { } }
-    public float ATK { get { return statusdata.ATK; } set { } }
-    public float SPEED { get { return statusdata.SPEED; } set { } }
-    public float NockBack { get { return statusdata.NockBack; } set { } }
-    public float SPAN { get { return statusdata.SPAN; } set { } }
-    public int EXP { get { return statusdata.EXP; } set { } }
-    
+    [SerializeField] private StatusData statusdata;
+
+    public float MAXHP { get; private set; }
+    public float ATK { get; private set; }
+    public float SPEED { get; private set; }
+    public float NockBack { get; private set; }
+    public float SPAN { get; private set; }
+    public int EXP { get; private set; }
+
+    public void Initialize()
+    {
+        MAXHP = statusdata.MAXHP;
+        ATK = statusdata.ATK;
+        SPEED = statusdata.SPEED;
+        NockBack = statusdata.NockBack;
+        SPAN = statusdata.SPAN;
+        EXP = statusdata.EXP;
+    }
+
+    // 必要なら値を変更するメソッドを用意
+    public void AddATK(float amount)
+    {
+        ATK += amount;
+    }
 }
