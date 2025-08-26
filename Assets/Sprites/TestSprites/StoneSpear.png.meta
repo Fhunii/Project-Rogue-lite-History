@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6329861542ed0fb4ba97c6b697b3e315
+guid: b366d83fe724e4343aee1022706f8c94
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3338325007952268735
-    second: ItemPanel1_0
+      213: -2758106829180517326
+    second: StoneSpear_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ItemPanel1_0
+      name: StoneSpear_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 827
-        height: 246
+        width: 396
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 142b33ca713eba1d0800000000000000
-      internalID: -3338325007952268735
+      spriteID: 234cd12b37c39b9d0800000000000000
+      internalID: -2758106829180517326
       vertices: []
       indices: 
       edges: []
