@@ -12,8 +12,6 @@ public class LevelUpPanel : MonoBehaviour
     [SerializeField] GameObject LevelUPUI;
     Image itemimage;
     
-    [SerializeField] Sprite imageFunnel;
-    [SerializeField] Sprite imageTsuba;
     public int argmentrnd;
     public Image Imagename;
     //public GamemanegerScript GMscript;
@@ -37,20 +35,6 @@ public class LevelUpPanel : MonoBehaviour
 
     public void LevelPanelprocess()
     {
-        //argmentrnd = Random.Range(0, 2);
-        //itemimage = this.GetComponentInChildren<Image>();
-        //if (argmentrnd == 0)
-        //{
-        //    Debug.Log(argmentrnd);
-        //    itemimage.sprite = imageFunnel;
-        //    GMscript.gameObject.GetComponent<GamemanegerScript>().ItemNum(argmentrnd);
-        //}
-        //if (argmentrnd == 1)
-        //{
-        //    Debug.Log(argmentrnd);
-        //    itemimage.sprite = imageTsuba;
-        //    GMscript.gameObject.GetComponent<GamemanegerScript>().ItemNum(argmentrnd);
-        //}
 
     }
 
@@ -65,13 +49,15 @@ public class LevelUpPanel : MonoBehaviour
             Debug.Log("ドローンを選択");
         }
 
-	if (Imagename.sprite.name == "ItemPanel2_0") {
+	    if (Imagename.sprite.name == "ItemPanel2_0")
+        {
             Debug.Log("パンチを選択");
 	        runtimeStatus.AddATK(1);
             Debug.Log("ATK:"+runtimeStatus.ATK);
         }
 
-	if (Imagename.sprite.name == "ItemPanel3_0") {
+	    if (Imagename.sprite.name == "ItemPanel3_0")
+        {
             Debug.Log("聖水を選択");
         }
 
