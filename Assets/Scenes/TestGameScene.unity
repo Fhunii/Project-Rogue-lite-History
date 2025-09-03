@@ -936,8 +936,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelUPUI: {fileID: 1779899697}
-  imageFunnel: {fileID: 0}
-  imageTsuba: {fileID: 0}
   argmentrnd: 0
   Imagename: {fileID: 477528432}
   drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
@@ -1481,8 +1479,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelUPUI: {fileID: 1779899697}
-  imageFunnel: {fileID: 0}
-  imageTsuba: {fileID: 0}
   argmentrnd: 0
   Imagename: {fileID: 805541892}
   drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
@@ -1984,8 +1980,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelUPUI: {fileID: 1779899697}
-  imageFunnel: {fileID: 0}
-  imageTsuba: {fileID: 0}
   argmentrnd: 0
   Imagename: {fileID: 1432337266}
   drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}

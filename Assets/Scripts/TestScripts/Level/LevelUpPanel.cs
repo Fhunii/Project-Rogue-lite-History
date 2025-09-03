@@ -47,6 +47,8 @@ public class LevelUpPanel : MonoBehaviour
             //ドローンの生成
             var Drone = Instantiate(drone, transform.position, transform.rotation);
             Debug.Log("ドローンを選択");
+            //画像をAssets/Sprites/TestSprites/ItemPanels/ItemPanel2.pngに差し替え
+            Imagename.sprite = Resources.Load<Sprite>("ItemPanel2_0");
         }
 
 	    if (Imagename.sprite.name == "ItemPanel2_0")
