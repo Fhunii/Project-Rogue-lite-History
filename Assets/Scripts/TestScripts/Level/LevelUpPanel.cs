@@ -44,23 +44,21 @@ public class LevelUpPanel : MonoBehaviour
         Debug.Log(Imagename.sprite.name);
         if (Imagename.sprite.name == "ItemPanel1_0")
         {
+            //ドローンの生成
             var Drone = Instantiate(drone, transform.position, transform.rotation);
-            Debug.Log("乱を選択");
-            //ソースイメージを変更
-            
-
+            Debug.Log("ドローンを選択");
         }
 
 	    if (Imagename.sprite.name == "ItemPanel2_0")
         {
-            Debug.Log("制を選択");
+            Debug.Log("パンチを選択");
 	        runtimeStatus.AddATK(1);
             Debug.Log("ATK:"+runtimeStatus.ATK);
         }
 
 	    if (Imagename.sprite.name == "ItemPanel3_0")
         {
-            Debug.Log("芸を選択");
+            Debug.Log("聖水を選択");
         }
 
         Time.timeScale = 1;

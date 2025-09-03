@@ -4,7 +4,6 @@ public class StatusUpdate : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] RuntimeStatus[] runtimeStatuses;
-    [SerializeField] ItemLevels itemLevels;
 
     void Start()
     {
@@ -12,10 +11,6 @@ public class StatusUpdate : MonoBehaviour
         {
             status.Initialize();
         }
-
-        itemLevels.Attack = 0;
-        itemLevels.System = 0;
-        itemLevels.Art = 0;
 
     }
 
