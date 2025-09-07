@@ -30,7 +30,7 @@ public class PlayerScript : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            if (this.transform.position.y > -3)
+            if (this.transform.position.y > -2.8)
             {
                 transform.position += new Vector3(0, -1 * statusdata.SPEED * Time.deltaTime, 0);
             }
