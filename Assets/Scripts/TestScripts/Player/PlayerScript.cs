@@ -23,14 +23,14 @@ public class PlayerScript : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            if (this.transform.position.y < 5)
+            if (this.transform.position.y < 3)
             {
                 transform.position += new Vector3(0, statusdata.SPEED * Time.deltaTime, 0);
             }
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            if (this.transform.position.y > -5)
+            if (this.transform.position.y > -3)
             {
                 transform.position += new Vector3(0, -1 * statusdata.SPEED * Time.deltaTime, 0);
             }
