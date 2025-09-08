@@ -1,72 +1,133 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems; // EventTriggerを扱うために必要
+
 public class LevelUpPanel : MonoBehaviour
 {
-    public static LevelUpPanel instance;
-    Text itemText;
-    public GameManagerScript GMscript;
-    string ItemName;
+    [SerializeField] private GameObject levelUpUI;
+    // ImageとButtonを統合し、ItemPanelのGameObjectを直接割り当てる
+    [SerializeField] private GameObject[] itemPanels;       // ItemPanel1,2,3 の GameObject
 
-    [SerializeField] GameObject LevelUPUI;
-    Image itemimage;
-    
-    public int argmentrnd;
-    public Image Imagename;
-    //public GamemanegerScript GMscript;
-    [SerializeField] GameObject drone;
-    [SerializeField] RuntimeStatus runtimeStatus;
-    // Start is called before the first frame update
-    void Start()
+    [Header("Resources フォルダパス")]
+    [SerializeField] private string[] resourcePaths = {
+        "Sprites/TestSprites/ItemPanels/ItemPanel1",
+        "Sprites/TestSprites/ItemPanels/ItemPanel2",
+        "Sprites/TestSprites/ItemPanels/ItemPanel3"
+    };
+
+    private Sprite[][] panelSprites; // 各パネルごとのスプライト配列
+    private int[] currentIndex;      // 各パネルの現在インデックス
+
+    void Awake()
     {
-        if (instance == null)
+        // 各フォルダからスプライトをロード
+        panelSprites = new Sprite[resourcePaths.Length][];
+        currentIndex = new int[resourcePaths.Length];
+
+        for (int i = 0; i < resourcePaths.Length; i++)
         {
-            instance = this;
+            panelSprites[i] = Resources.LoadAll<Sprite>(resourcePaths[i]);
+            currentIndex[i] = 0;
+
+            // GameObjectからImageコンポーネントを取得
+            Image panelImage = itemPanels[i].GetComponent<Image>();
+            if (panelImage == null)
+            {
+                Debug.LogError($"ItemPanel {i} に Image コンポーネントがありません。");
+                continue;
+            }
+
+            // 初期画像をセット
+            if (panelSprites[i].Length > 0)
+                panelImage.sprite = panelSprites[i][0];
+
+            // --- EventTriggerの設定 ---
+            // EventTriggerコンポーネントを取得または追加
+            EventTrigger trigger = itemPanels[i].GetComponent<EventTrigger>();
+            if (trigger == null)
+            {
+                trigger = itemPanels[i].AddComponent<EventTrigger>();
+            }
+
+            // PointerClickイベント用のエントリーを作成
+            EventTrigger.Entry entry = new EventTrigger.Entry();
+            entry.eventID = EventTriggerType.PointerClick;
+
+            int index = i; // クロージャ対策
+            // コールバックに関数を登録
+            entry.callback.AddListener((eventData) => { OnItemPanelClick(index); });
+
+            // EventTriggerにエントリーを追加
+            trigger.triggers.Add(entry);
         }
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    /// <summary>
+    /// パネルがクリックされたとき
+    /// </summary>
+    public void OnItemPanelClick(int panelIndex)
     {
-        
-    }
+        // GameObjectからImageコンポーネントを取得して現在のスプライトを得る
+        Image panelImage = itemPanels[panelIndex].GetComponent<Image>();
+        Sprite currentSprite = panelImage.sprite;
+        string spriteName = currentSprite.name;
+        Debug.Log($"クリックされたパネル {panelIndex + 1} : {spriteName}");
 
-    public void LevelPanelprocess()
-    {
-
-    }
-
-    public void Onclick()
-    {
-        Imagename=this.gameObject.GetComponent<Image>();
-        Debug.Log(Imagename.sprite.name);
-        if (Imagename.sprite.name == "ItemPanel1_0")
+        // 画像ごとに処理を分岐
+        switch (spriteName)
         {
-            //ドローンの生成
-            var Drone = Instantiate(drone, transform.position, transform.rotation);
-            Debug.Log("ドローンを選択");
-            //画像をAssets/Sprites/TestSprites/ItemPanels/ItemPanel2.pngに差し替え
-            Imagename.sprite = Resources.Load<Sprite>("ItemPanel2_0");
+            case "ItemPanel1-1_0":
+                Debug.Log("ドローンを付与する処理");
+                Time.timeScale = 1;
+                break;
+            case "ItemPanel1-2_0":
+                Debug.Log("ドローンを強化する処理");
+                Time.timeScale = 1;
+                break;
+            case "ItemPanel1-3_0":
+                Debug.Log("ドローン最終強化");
+                Time.timeScale = 1;
+                break;
+
+            case "ItemPanel2-1_0":
+                Debug.Log("パンチを付与");
+                Time.timeScale = 1;
+                break;
+            case "ItemPanel2-2_0":
+                Debug.Log("パンチ強化");
+                Time.timeScale = 1;
+                break;
+            case "ItemPanel2-3_0":
+                Debug.Log("パンチ最終強化");
+                Time.timeScale = 1;
+                break;
+
+            case "ItemPanel3-1_0":
+                Debug.Log("聖水を付与");
+                Time.timeScale = 1;
+                break;
+            case "ItemPanel3-2_0":
+                Debug.Log("聖水強化");
+                Time.timeScale = 1;
+                break;
+            case "ItemPanel3-3_0":
+                Debug.Log("聖水最終強化");
+                Time.timeScale = 1;
+                break;
         }
 
-	    if (Imagename.sprite.name == "ItemPanel2_0")
+        // 次の画像に進める
+        currentIndex[panelIndex]++;
+        if (currentIndex[panelIndex] < panelSprites[panelIndex].Length)
         {
-            Debug.Log("パンチを選択");
-	        runtimeStatus.AddATK(1);
-            Debug.Log("ATK:"+runtimeStatus.ATK);
+            panelImage.sprite = panelSprites[panelIndex][currentIndex[panelIndex]];
         }
-
-	    if (Imagename.sprite.name == "ItemPanel3_0")
+        else
         {
-            Debug.Log("聖水を選択");
+            // 最後の画像なら止める（またはループさせても良い）
+            currentIndex[panelIndex] = panelSprites[panelIndex].Length - 1;
         }
-
-        Time.timeScale = 1;
-        LevelUPUI.GetComponent<Canvas>().enabled = false;
-        
+        levelUpUI.GetComponent<Canvas>().enabled = false;
+        Debug.Log("処理終わり");
     }
-
-
 }

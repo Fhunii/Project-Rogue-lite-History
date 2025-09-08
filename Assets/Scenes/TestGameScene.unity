@@ -456,9 +456,9 @@ Transform:
   m_GameObject: {fileID: 297725250}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3038, y: 0.3531, z: 142.32}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0.97, y: -0.51, z: 142.32}
+  m_LocalScale: {x: 1.38, y: 1.38, z: 1.38}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1536819349}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -506,12 +506,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9141923884796737914, guid: f7cd34e306ab8df43b98f3be01fce6e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b4e1d9b1a354b2b4db906c7445fc75bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 18.149805, y: 10.208427}
+  m_Size: {x: 12.8, y: 12.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -936,10 +936,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelUPUI: {fileID: 1779899697}
-  argmentrnd: 0
-  Imagename: {fileID: 477528432}
-  drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
   runtimeStatus: {fileID: 11400000, guid: 0a598bfa4ee358e4fa429225c0e02a94, type: 2}
+  drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
+  Imagename: {fileID: 0}
+  folderNames:
+  - ItemPanel1
+  - ItemPanel2
+  - ItemPanel3
 --- !u!114 &477528431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1479,10 +1482,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelUPUI: {fileID: 1779899697}
-  argmentrnd: 0
-  Imagename: {fileID: 805541892}
-  drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
   runtimeStatus: {fileID: 11400000, guid: 0a598bfa4ee358e4fa429225c0e02a94, type: 2}
+  drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
+  Imagename: {fileID: 0}
+  folderNames:
+  - ItemPanel1
+  - ItemPanel2
+  - ItemPanel3
 --- !u!114 &805541891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1980,10 +1986,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelUPUI: {fileID: 1779899697}
-  argmentrnd: 0
-  Imagename: {fileID: 1432337266}
-  drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
   runtimeStatus: {fileID: 11400000, guid: 0a598bfa4ee358e4fa429225c0e02a94, type: 2}
+  drone: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
+  Imagename: {fileID: 0}
+  folderNames:
+  - ItemPanel1
+  - ItemPanel2
+  - ItemPanel3
 --- !u!114 &1432337269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2003,7 +2012,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1432337268}
           m_TargetAssemblyTypeName: LevelUpPanel, Assembly-CSharp
-          m_MethodName: Onclick
+          m_MethodName: OnClick
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
