@@ -72,6 +72,12 @@ public class LevelUpPanel : MonoBehaviour
         Sprite currentSprite = panelImage.sprite;
         string spriteName = currentSprite.name;
         Debug.Log($"クリックされたパネル {panelIndex + 1} : {spriteName}");
+        
+        if (currentIndex[panelIndex] >= panelSprites[panelIndex].Length - 1)
+        {
+            Debug.Log($"パネル{panelIndex + 1}は最終進化なので処理しません。UIも閉じません。");
+            return; // ここで終了（閉じない）
+        }
 
         // 画像ごとに処理を分岐
         switch (spriteName)
