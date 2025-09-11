@@ -361,6 +361,7 @@ MonoBehaviour:
   EnemyStatusData2: {fileID: 11400000, guid: aae122cdc8dda1a4b82526660f1afb19, type: 2}
   EnemyStatusData3: {fileID: 11400000, guid: e64bafa9312ca9949af80373c79c8ce1, type: 2}
   EnemyStatusData4: {fileID: 11400000, guid: 523f80b87d4595744943a6ce1678eeda, type: 2}
+  RoundUI: {fileID: 1022463766}
 --- !u!1 &230761832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1895,7 +1896,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4319541102645210540, guid: d7192a96fedea664b85ddf85ca8b03bd, type: 3}
+  m_Sprite: {fileID: -3155969551479349541, guid: d9ef2e025d5d2a04f8e956315e8ffa4c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1931,6 +1932,7 @@ MonoBehaviour:
   - {fileID: 6792049391958899, guid: e161ac69729dbf643b4df4b3006ac930, type: 3}
   - {fileID: -3155969551479349541, guid: d9ef2e025d5d2a04f8e956315e8ffa4c, type: 3}
   roundImage: {fileID: 1022463768}
+  RoundUIObject: {fileID: 1022463766}
 --- !u!1 &1023610954
 GameObject:
   m_ObjectHideFlags: 0
