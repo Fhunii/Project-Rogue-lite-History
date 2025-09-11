@@ -2560,3 +2560,19 @@ Memory consumption went from 195.2 MB to 189.9 MB.
 Total: 17.985600 ms (FindLiveObjects: 1.044200 ms CreateObjectMapping: 1.273400 ms MarkObjects: 10.928200 ms  DeleteObjects: 4.737400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 168.565304 seconds.
+  path: Assets/Prefab/Prefab/StickManSoloLarge.prefab
+  artifactKey: Guid(86b5d0f81db26de43bdea73a6b411be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/StickManSoloLarge.prefab using Guid(86b5d0f81db26de43bdea73a6b411be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf9e63804d63a04fad6f54bc4417a677') in 1.0875152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefab/Prefab/StickManTrioSmall.prefab
+  artifactKey: Guid(edc9082270eda954c977e6cbf4251192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/StickManTrioSmall.prefab using Guid(edc9082270eda954c977e6cbf4251192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04141ea4e524cc970037e5a6e98a3121') in 0.0265737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
