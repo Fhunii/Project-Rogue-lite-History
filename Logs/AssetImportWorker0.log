@@ -2901,3 +2901,7 @@ Received Import Request.
 Start importing Assets/ScriptableObjects/ScritableObjects/StickManTrioSmall.asset using Guid(aae122cdc8dda1a4b82526660f1afb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ba00def0b4dd52e7551eb5dc760248f') in 0.0020079 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
