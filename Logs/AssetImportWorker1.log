@@ -2040,3 +2040,19 @@ Received Import Request.
 Start importing Assets/Prefab/Prefab/StickManTrioLarge.prefab using Guid(60f388a203ab4834d83df428ce6b6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ddcb3bce63118e41888beb1238f98ec') in 0.0258218 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
+========================================================================
+Received Import Request.
+  Time since last request: 90.290088 seconds.
+  path: Assets/Prefab/Prefab/StickManSoloSmall.prefab
+  artifactKey: Guid(4dd623ffad35324448d89d6ac7734e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/StickManSoloSmall.prefab using Guid(4dd623ffad35324448d89d6ac7734e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fa9da9c1d5dd432513ea1e81ed39c78') in 0.0248348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefab/Prefab/StickManTrioLarge.prefab
+  artifactKey: Guid(60f388a203ab4834d83df428ce6b6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/StickManTrioLarge.prefab using Guid(60f388a203ab4834d83df428ce6b6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce6106b32b4cbebdf9551f12c474002b') in 0.0211648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
