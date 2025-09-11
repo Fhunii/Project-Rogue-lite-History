@@ -827,3 +827,157 @@ Received Import Request.
 Start importing Assets/Prefab/TestPrefab/Shaspo.prefab using Guid(59c3354ba3291374d87d4e04763a8e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad1f3649fd7402d2fdf2ded09ee92d40') in 0.0144994 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.711 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.327 seconds
+Domain Reload Profiling: 3038ms
+	BeginReloadAssembly (535ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (48ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (198ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (1073ms)
+		LoadAssemblies (967ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (281ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1328ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (980ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (681ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (5.1 MB). Loaded Objects now: 7442.
+Memory consumption went from 187.4 MB to 182.3 MB.
+Total: 18.193000 ms (FindLiveObjects: 1.072800 ms CreateObjectMapping: 1.245300 ms MarkObjects: 11.438000 ms  DeleteObjects: 4.432600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 502.297290 seconds.
+  path: Assets/Resources/Sprites/Sprites/Gun/Flintrock.png
+  artifactKey: Guid(2464998d2ced3c04191fbe7e2af60cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Sprites/Gun/Flintrock.png using Guid(2464998d2ced3c04191fbe7e2af60cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a93f3edc46174f589f722884bdbaa7c9') in 0.1062029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.765637 seconds.
+  path: Assets/Resources/Sprites/Sprites/Gun/Enfield.png
+  artifactKey: Guid(6d25c22a8b6dc0e4db6471e86b88f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Sprites/Gun/Enfield.png using Guid(6d25c22a8b6dc0e4db6471e86b88f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c02411d67973a1573d64a340b7ab0337') in 0.0236522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.489126 seconds.
+  path: Assets/Resources/Sprites/Sprites/Gun/Shaspo.png
+  artifactKey: Guid(2d9c6af63a59cd747b07471b40c5655c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Sprites/Gun/Shaspo.png using Guid(2d9c6af63a59cd747b07471b40c5655c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a81812eeed3c39e0e9b3de862115793f') in 0.0168297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.258101 seconds.
+  path: Assets/Resources/Sprites/Sprites/Gun/Bullet.png
+  artifactKey: Guid(0dbebba6f2feaf54a9445a296cd49ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Sprites/Gun/Bullet.png using Guid(0dbebba6f2feaf54a9445a296cd49ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbff77dbd91d9487ba149e46f1e434a9') in 0.0164583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.544575 seconds.
+  path: Assets/Prefab/TestPrefab/Enfield.prefab
+  artifactKey: Guid(b0788a434c172b246959c71d63c86879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TestPrefab/Enfield.prefab using Guid(b0788a434c172b246959c71d63c86879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5c7c153975a7ae21abd1390a219f61d') in 0.623599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefab/TestPrefab/Ray.prefab
+  artifactKey: Guid(303be1d6dae12b34eb5d0989a7741938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TestPrefab/Ray.prefab using Guid(303be1d6dae12b34eb5d0989a7741938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a595ea6ded32de0a3e22b12f2e462607') in 0.0154564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefab/TestPrefab/Shaspo.prefab
+  artifactKey: Guid(59c3354ba3291374d87d4e04763a8e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TestPrefab/Shaspo.prefab using Guid(59c3354ba3291374d87d4e04763a8e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9365e2c20ea84e715e80ce196485c95') in 0.01993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.197 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.257 seconds
+Domain Reload Profiling: 2450ms
+	BeginReloadAssembly (349ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (727ms)
+		LoadAssemblies (618ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (252ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (923ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (5.4 MB). Loaded Objects now: 7468.
+Memory consumption went from 189.0 MB to 183.6 MB.
+Total: 18.972500 ms (FindLiveObjects: 1.034800 ms CreateObjectMapping: 1.148700 ms MarkObjects: 11.167900 ms  DeleteObjects: 5.618600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
