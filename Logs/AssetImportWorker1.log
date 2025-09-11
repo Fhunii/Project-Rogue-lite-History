@@ -5440,3 +5440,11 @@ Memory consumption went from 191.0 MB to 186.2 MB.
 Total: 17.998300 ms (FindLiveObjects: 0.939200 ms CreateObjectMapping: 1.197300 ms MarkObjects: 11.016300 ms  DeleteObjects: 4.841600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9004.287893 seconds.
+  path: Assets/Prefab/Prefab/StickManSoloSmall.prefab
+  artifactKey: Guid(4dd623ffad35324448d89d6ac7734e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/StickManSoloSmall.prefab using Guid(4dd623ffad35324448d89d6ac7734e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf5f6756281a08bc51c1c574f251e243') in 8.7178301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
