@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour
     public TMP_Text timerText;
 
     // タイマーの残り時間（秒）
-    private float remainingTime = 600f; // 10分 = 600秒
+    private float remainingTime = 300f; // 10分 = 600秒
     void Start()
     {
         // タイマーの初期化
@@ -35,7 +35,7 @@ public class Timer : MonoBehaviour
         else
         {
             // タイムアップ時の処理
-            
+
             // ここにタイムアップ時の追加処理を記述できます
         }
     }
