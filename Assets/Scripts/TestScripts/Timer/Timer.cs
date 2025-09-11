@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
     void Start()
     {
         // タイマーの初期化
-        remainingTime = 600f;
+        remainingTime = 300f;
     }
 
     void Update()
