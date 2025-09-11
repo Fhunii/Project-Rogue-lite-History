@@ -12,6 +12,7 @@ public class EnemyGeneratorScript : MonoBehaviour
     [SerializeField] private StatusData EnemyStatusData2;
     [SerializeField] private StatusData EnemyStatusData3;
     [SerializeField] private StatusData EnemyStatusData4;
+    [SerializeField] public GameObject RoundUI;
 
     private GameObject Player;
     private float currentTime = 0f;
@@ -23,7 +24,12 @@ public class EnemyGeneratorScript : MonoBehaviour
     private float EnemyUpdate_1 = 60f;
     private float EnemyUpdate_2 = 120f;
     private float EnemyUpdate_3 = 160f;
+
+    private int currentRound = 0;
+    private int newRound = 0;
     // private float EnemyUpdate_4 = 60f; // この時間を超えた際の敵を設定するため
+    private GameObject prefabToSpawn;
+    private float spanToUse;
 
     void Start()
     {
@@ -36,44 +42,58 @@ public class EnemyGeneratorScript : MonoBehaviour
         span2 = EnemyStatusData2.SPAN;
         span3 = EnemyStatusData3.SPAN;
         span4 = EnemyStatusData4.SPAN;
+        prefabToSpawn = EnemyPrefab1;
+        spanToUse = span1;
     }
 
     void Update()
     {
         currentTime += Time.deltaTime; // 時間経過をcurrentTimeに代入し時間を測る
 
-        GameObject prefabToSpawn;
-        float spanToUse;
-
         // --- 時間経過に応じて、生成するPrefabと適用するspanを決定する ---
-        // if-else if を使うことで、どの時間帯に何が出現するかが明確になる
         if (Time.time < EnemyUpdate_1)
-        {
-            prefabToSpawn = EnemyPrefab1;
-            spanToUse = span1;
-        }
+            newRound = 1;
         else if (Time.time < EnemyUpdate_2)
-        {
-            prefabToSpawn = EnemyPrefab2;
-            spanToUse = span2;
-        }
+            newRound = 2;
         else if (Time.time < EnemyUpdate_3)
-        {
-            prefabToSpawn = EnemyPrefab3;
-            spanToUse = span3;
-        }
+            newRound = 3;
         else // EnemyUpdate_3 (45秒)以降
+            newRound = 4;
+
+        if (newRound != currentRound)
         {
-            // 60秒を超えてもEnemyPrefab4が出続けるように設定
-            prefabToSpawn = EnemyPrefab4;
-            spanToUse = span4;
+            currentRound = newRound;
+
+            // Prefabとspanを設定
+            switch (currentRound)
+            {
+                case 1:
+                    prefabToSpawn = EnemyPrefab1;
+                    spanToUse = span1;
+                    break;
+                case 2:
+                    prefabToSpawn = EnemyPrefab2;
+                    spanToUse = span2;
+                    break;
+                case 3:
+                    prefabToSpawn = EnemyPrefab3;
+                    spanToUse = span3;
+                    break;
+                case 4:
+                    prefabToSpawn = EnemyPrefab4;
+                    spanToUse = span4;
+                    break;
+            }
+
+            // ラウンド変更時の処理
+            RoundUI.GetComponent<RoundUI>().ChangeRoundImage();
         }
-        
         // --- 決定されたspanとPrefabを使って、生成処理を行う ---
         if (currentTime > spanToUse)
         {
             EnemyGenerate(prefabToSpawn);
             currentTime = 0f; // タイマーをリセット
+            Debug.Log("敵生成"+ currentRound +"ラウンド目"+ prefabToSpawn.name);
         }
     }
 

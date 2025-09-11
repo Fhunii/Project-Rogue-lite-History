@@ -361,6 +361,7 @@ MonoBehaviour:
   EnemyStatusData2: {fileID: 11400000, guid: aae122cdc8dda1a4b82526660f1afb19, type: 2}
   EnemyStatusData3: {fileID: 11400000, guid: e64bafa9312ca9949af80373c79c8ce1, type: 2}
   EnemyStatusData4: {fileID: 11400000, guid: 523f80b87d4595744943a6ce1678eeda, type: 2}
+  RoundUI: {fileID: 1022463766}
 --- !u!1 &230761832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,7 +1609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 5:00
+  m_text: 05:00
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -1837,6 +1838,101 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1022463766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1022463767}
+  - component: {fileID: 1022463769}
+  - component: {fileID: 1022463768}
+  - component: {fileID: 1022463770}
+  m_Layer: 5
+  m_Name: RoundUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1022463767
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022463766}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103906660}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0050048, y: 0.0000076294}
+  m_SizeDelta: {x: 947.51, y: 187.9276}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1022463768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022463766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -3155969551479349541, guid: d9ef2e025d5d2a04f8e956315e8ffa4c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1022463769
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022463766}
+  m_CullTransparentMesh: 1
+--- !u!114 &1022463770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022463766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9284273f0b18ae4e81374f34fe0355d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roundImages:
+  - {fileID: -4319541102645210540, guid: d7192a96fedea664b85ddf85ca8b03bd, type: 3}
+  - {fileID: 3346643951219308547, guid: 5556f0b5db2635b47854836bd1e125b7, type: 3}
+  - {fileID: 6792049391958899, guid: e161ac69729dbf643b4df4b3006ac930, type: 3}
+  - {fileID: -3155969551479349541, guid: d9ef2e025d5d2a04f8e956315e8ffa4c, type: 3}
+  roundImage: {fileID: 1022463768}
+  RoundUIObject: {fileID: 1022463766}
 --- !u!1 &1023610954
 GameObject:
   m_ObjectHideFlags: 0
@@ -2914,6 +3010,7 @@ RectTransform:
   - {fileID: 694946409}
   - {fileID: 1779899698}
   - {fileID: 935053656}
+  - {fileID: 1022463767}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
