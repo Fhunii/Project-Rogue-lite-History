@@ -15,6 +15,9 @@ public class LevelUpPanel : MonoBehaviour
         "Sprites/TestSprites/ItemPanels/ItemPanel3"
     };
 
+    [SerializeField] private GameObject dronePrefab1; // ドローンのプレハブ
+    [SerializeField] private GameObject dronePrefab2; // ドローン強化のプレハブ
+    [SerializeField] private GameObject dronePrefab3; // ドローン最終強化のプレハブ
     private Sprite[][] panelSprites; // 各パネルごとのスプライト配列
     private int[] currentIndex;      // 各パネルの現在インデックス
 
@@ -85,14 +88,17 @@ public class LevelUpPanel : MonoBehaviour
             case "ItemPanel1-1_0":
                 Debug.Log("ドローンを付与する処理");
                 Time.timeScale = 1;
+                Instantiate(dronePrefab1);
                 break;
             case "ItemPanel1-2_0":
                 Debug.Log("ドローンを強化する処理");
                 Time.timeScale = 1;
+                Instantiate(dronePrefab2);
                 break;
             case "ItemPanel1-3_0":
                 Debug.Log("ドローン最終強化");
                 Time.timeScale = 1;
+                Instantiate(dronePrefab3);
                 break;
 
             case "ItemPanel2-1_0":
