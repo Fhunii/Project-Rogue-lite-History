@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems; // EventTriggerを扱うために必要
+using UnityEngine.EventSystems;
+using Unity.VisualScripting; // EventTriggerを扱うために必要
 
 public class LevelUpPanel : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class LevelUpPanel : MonoBehaviour
     [SerializeField] private GameObject dronePrefab1; // ドローンのプレハブ
     [SerializeField] private GameObject dronePrefab2; // ドローン強化のプレハブ
     [SerializeField] private GameObject dronePrefab3; // ドローン最終強化のプレハブ
+    [SerializeField] private RuntimeStatus playerRuntimeStatus; // プレイヤーのGameObject
     private Sprite[][] panelSprites; // 各パネルごとのスプライト配列
     private int[] currentIndex;      // 各パネルの現在インデックス
 
@@ -102,16 +104,19 @@ public class LevelUpPanel : MonoBehaviour
                 break;
 
             case "ItemPanel2-1_0":
-                Debug.Log("パンチを付与");
+                Debug.Log("パンチ強化");
                 Time.timeScale = 1;
+                playerRuntimeStatus.AddATK(1.0f); // ATKを1.0増加
                 break;
             case "ItemPanel2-2_0":
                 Debug.Log("パンチ強化");
                 Time.timeScale = 1;
+                playerRuntimeStatus.AddATK(2.0f); // ATKを2.0増加
                 break;
             case "ItemPanel2-3_0":
                 Debug.Log("パンチ最終強化");
                 Time.timeScale = 1;
+                playerRuntimeStatus.AddATK(3.0f); // ATKを3.0増加
                 break;
 
             case "ItemPanel3-1_0":
