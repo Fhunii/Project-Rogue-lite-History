@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4240375240805179192}
   - component: {fileID: 995023730382193499}
   m_Layer: 0
-  m_Name: Enfield
+  m_Name: Shaspo
   m_TagString: Drone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,13 +27,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3174001719922360106}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
   m_LocalPosition: {x: 0.99518734, y: -0.6631427, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
 --- !u!212 &7041740910232658750
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2379780930571803492, guid: 6d25c22a8b6dc0e4db6471e86b88f011, type: 3}
+  m_Sprite: {fileID: 3036067268581492614, guid: 2d9c6af63a59cd747b07471b40c5655c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -198,6 +198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fa6f80f33a0c44e943beee7b84530a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RayPrefab: {fileID: 8083577912944176443, guid: 303be1d6dae12b34eb5d0989a7741938, type: 3}
-  runtimeStatus: {fileID: 11400000, guid: a5fa8b3a9a9242b4a8fec41b891bcb22, type: 2}
+  RayPrefab: {fileID: 8083577912944176443, guid: 1326455c9e18d1c47a1ad206baa91930, type: 3}
+  runtimeStatus: {fileID: 11400000, guid: 383b966776065214d9d14dbce1047d9f, type: 2}
   sound: {fileID: 8300000, guid: 225f1f1d3f71bbb468f525eaca0d3cb8, type: 3}
