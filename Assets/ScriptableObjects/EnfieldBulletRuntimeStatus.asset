@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 923bdfb2134d2494bb441528a64a12f7, type: 3}
-  m_Name: RayRuntimeStatus
+  m_Name: EnfieldBulletRuntimeStatus
   m_EditorClassIdentifier: 
-  statusdata: {fileID: 11400000, guid: 8dd3b874fc343534bbad784e0b94b208, type: 2}
+  statusdata: {fileID: 11400000, guid: 0a645c8a015d9984b962fc8be437e301, type: 2}
   MAXHP: 0
-  ATK: 1
+  ATK: 3
   SPEED: 2
   NockBack: 0
-  SPAN: 5
+  SPAN: 6.49
   EXP: 0
