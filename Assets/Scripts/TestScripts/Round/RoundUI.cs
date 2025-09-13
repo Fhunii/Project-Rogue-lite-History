@@ -16,7 +16,6 @@ public class RoundUI : MonoBehaviour
     public void ChangeRoundImage()
     {
         RoundUIObject.SetActive(true);
-
         // 呼び出されたとき、roundImagesを配列の中で次のスプライトに変えてroundImageに適応する
         for (int i = 0; i < roundImages.Length; i++)
         {
