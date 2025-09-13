@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 513d6c7504ec03e47903d38a8564e880
+guid: de13d826dafa2834ebd8841b328d6e0e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2521409195606705084
-    second: Tutorial_0
+      213: 6278993962284121293
+    second: chronuslay rogo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tutorial_0
+      name: chronuslay rogo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 197
+        y: 140
+        width: 1545
+        height: 671
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44c757212b7220dd0800000000000000
-      internalID: -2521409195606705084
+      spriteID: dcc74ccbdb7732750800000000000000
+      internalID: 6278993962284121293
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tutorial_0: -2521409195606705084
+      chronuslay rogo_0: 6278993962284121293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
