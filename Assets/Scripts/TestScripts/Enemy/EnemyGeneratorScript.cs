@@ -21,7 +21,7 @@ public class EnemyGeneratorScript : MonoBehaviour
     private float span1, span2, span3, span4;
 
     // 敵の種類が切り替わる時間（秒）
-    private float EnemyUpdate_1 = 15f;
+    private float EnemyUpdate_1 = 60f;
     private float EnemyUpdate_2 = 120f;
     private float EnemyUpdate_3 = 160f;
 
