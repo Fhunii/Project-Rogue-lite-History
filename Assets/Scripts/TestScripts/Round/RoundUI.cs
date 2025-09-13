@@ -1,17 +1,21 @@
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections; // コルーチンに必要
+using System.Collections;
+using Unity.VisualScripting;
+using NUnit.Framework.Constraints; // コルーチンに必要
 
 public class RoundUI : MonoBehaviour
 {
     [SerializeField] Sprite[] roundImages;
-    [SerializeField] UnityEngine.UI.Image roundImage;
+    [SerializeField] Image roundImage;
     [SerializeField] GameObject RoundUIObject;
 
     void Start()
     {
-        RoundUIObject.SetActive(false);
-        roundImage.sprite = roundImages[0];
+        roundImage.sprite = null;
+        RoundUIObject.SetActive(true);
+        ChangeRoundImage();
+        Debug.Log(roundImages.Length);
     }
 
     public void ChangeRoundImage()

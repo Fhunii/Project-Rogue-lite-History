@@ -21,7 +21,7 @@ public class EnemyGeneratorScript : MonoBehaviour
     private float span1, span2, span3, span4;
 
     // 敵の種類が切り替わる時間（秒）
-    private float EnemyUpdate_1 = 60f;
+    private float EnemyUpdate_1 = 15f;
     private float EnemyUpdate_2 = 120f;
     private float EnemyUpdate_3 = 160f;
 
@@ -30,6 +30,7 @@ public class EnemyGeneratorScript : MonoBehaviour
     // private float EnemyUpdate_4 = 60f; // この時間を超えた際の敵を設定するため
     private GameObject prefabToSpawn;
     private float spanToUse;
+    private float roundTime = 0f;
 
     void Start()
     {
@@ -42,10 +43,15 @@ public class EnemyGeneratorScript : MonoBehaviour
         span2 = EnemyStatusData2.SPAN;
         span3 = EnemyStatusData3.SPAN;
         span4 = EnemyStatusData4.SPAN;
+        roundTime = Time.time;
         prefabToSpawn = EnemyPrefab1;
         spanToUse = span1;
         currentRound = 1;
         newRound = 1;
+        Debug.Log("Prefab to spawn: " + prefabToSpawn);
+        Debug.Log("Span to use: " + spanToUse);
+        Debug.Log("Current round: " + currentRound);
+        Debug.Log("New round: " + newRound);
     }
 
     void Update()
@@ -53,11 +59,11 @@ public class EnemyGeneratorScript : MonoBehaviour
         currentTime += Time.deltaTime; // 時間経過をcurrentTimeに代入し時間を測る
 
         // --- 時間経過に応じて、生成するPrefabと適用するspanを決定する ---
-        if (Time.time < EnemyUpdate_1)
+        if (Time.time - roundTime < EnemyUpdate_1)
             newRound = 1;
-        else if (Time.time < EnemyUpdate_2)
+        else if (Time.time - roundTime < EnemyUpdate_2)
             newRound = 2;
-        else if (Time.time < EnemyUpdate_3)
+        else if (Time.time - roundTime < EnemyUpdate_3)
             newRound = 3;
         else // EnemyUpdate_3 (45秒)以降
             newRound = 4;
