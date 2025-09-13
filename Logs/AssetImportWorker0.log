@@ -4691,3 +4691,11 @@ Received Import Request.
 Start importing Assets/Scenes/MenuScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1045023f657760370105b0994efaf6ef') in 0.000876 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 107.880164 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(197a9ee27bc606c4695e9b1487cb86f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(197a9ee27bc606c4695e9b1487cb86f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '784471359c38e1ec75a72282b9697c90') in 0.0008375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
