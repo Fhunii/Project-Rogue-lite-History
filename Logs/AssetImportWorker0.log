@@ -1544,3 +1544,47 @@ Received Import Request.
 Start importing Assets/Scenes/GameScene.unity using Guid(197a9ee27bc606c4695e9b1487cb86f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be251251e1da39ba6b196b7fab3b078f') in 0.0216069 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6563 unused Assets / (4.9 MB). Loaded Objects now: 7512.
+Memory consumption went from 185.6 MB to 180.6 MB.
+Total: 23.638600 ms (FindLiveObjects: 1.375000 ms CreateObjectMapping: 1.734400 ms MarkObjects: 15.500900 ms  DeleteObjects: 5.025200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 329.006659 seconds.
+  path: Assets/Scripts/TestScripts/Enemy/EnemyGeneratorScript.cs
+  artifactKey: Guid(c6b4469bb0fdfff45ac257a16bb9c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestScripts/Enemy/EnemyGeneratorScript.cs using Guid(c6b4469bb0fdfff45ac257a16bb9c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abe36be4ab887a30e80fdb74f40567e8') in 0.0110949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6563 unused Assets / (4.7 MB). Loaded Objects now: 7512.
+Memory consumption went from 185.6 MB to 180.9 MB.
+Total: 32.775500 ms (FindLiveObjects: 1.145200 ms CreateObjectMapping: 1.696400 ms MarkObjects: 25.037500 ms  DeleteObjects: 4.893200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 138.252939 seconds.
+  path: Assets/Scripts/TestScripts/Enemy/EnemyGeneratorScript.cs
+  artifactKey: Guid(c6b4469bb0fdfff45ac257a16bb9c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestScripts/Enemy/EnemyGeneratorScript.cs using Guid(c6b4469bb0fdfff45ac257a16bb9c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d74c6be6ddf9b65d63e1b62043857d4') in 0.009569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.195376 seconds.
+  path: Assets/Scripts/TestScripts/Enemy/EnemyScript.cs
+  artifactKey: Guid(2b6ec312159b4c74f86fbd896de547ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestScripts/Enemy/EnemyScript.cs using Guid(2b6ec312159b4c74f86fbd896de547ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b8293e0bebfdafe5bd98765efc46c0b') in 0.0009896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

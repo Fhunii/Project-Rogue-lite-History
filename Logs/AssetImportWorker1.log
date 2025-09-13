@@ -1376,3 +1376,23 @@ Received Import Request.
 Start importing Assets/Scripts/TestScripts/StatusUpdate.cs using Guid(ba83bb88fa826c24c9b07c89fa6a5a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe8291d2e9223a2567f9a948003c47d9') in 0.0235887 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6563 unused Assets / (5.0 MB). Loaded Objects now: 7449.
+Memory consumption went from 185.8 MB to 180.8 MB.
+Total: 20.010300 ms (FindLiveObjects: 1.382900 ms CreateObjectMapping: 1.442500 ms MarkObjects: 12.680300 ms  DeleteObjects: 4.501300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6563 unused Assets / (5.1 MB). Loaded Objects now: 7449.
+Memory consumption went from 185.8 MB to 180.7 MB.
+Total: 32.188000 ms (FindLiveObjects: 1.139700 ms CreateObjectMapping: 1.483600 ms MarkObjects: 21.512500 ms  DeleteObjects: 8.048900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
