@@ -31,7 +31,7 @@ public class DroneScript : MonoBehaviour
         currentTime += Time.deltaTime;
         if (currentTime > runtimeStatus.SPAN)
         {
-            Debug.Log("RayStatus.SPAN:" + runtimeStatus.SPAN);
+
             RayGenerate();
             currentTime = 0f;
 

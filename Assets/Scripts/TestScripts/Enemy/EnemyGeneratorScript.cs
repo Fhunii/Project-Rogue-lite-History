@@ -93,7 +93,6 @@ public class EnemyGeneratorScript : MonoBehaviour
         {
             EnemyGenerate(prefabToSpawn);
             currentTime = 0f; // タイマーをリセット
-            Debug.Log("敵生成"+ currentRound +"ラウンド目"+ prefabToSpawn.name);
         }
     }
 

@@ -9,7 +9,7 @@ public class PlayerHP : MonoBehaviour
     
     public Slider hpBar;
     
-    float HP;
+    public float HP;
     // Start is called before the first frame update
     void Start()
     {

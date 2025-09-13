@@ -2438,6 +2438,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a5fa8b3a9a9242b4a8fec41b891bcb22, type: 2}
   - {fileID: 11400000, guid: 81895bc17f9b01645b542c01369f7b45, type: 2}
   - {fileID: 11400000, guid: 383b966776065214d9d14dbce1047d9f, type: 2}
+  - {fileID: 11400000, guid: b8b852759d188e04b8b100f292a6ed68, type: 2}
+  - {fileID: 11400000, guid: 100f3789f61b2de45b387699415f8992, type: 2}
+  - {fileID: 11400000, guid: 26446c7dbc0eadd47950907ccd4d5d40, type: 2}
+  - {fileID: 11400000, guid: 6a49baa87131f1f49a638813c7b5354f, type: 2}
 --- !u!4 &1561547863
 Transform:
   m_ObjectHideFlags: 0
@@ -2656,6 +2660,19 @@ MonoBehaviour:
   - Sprites/TestSprites/ItemPanels/ItemPanel1
   - Sprites/TestSprites/ItemPanels/ItemPanel2
   - Sprites/TestSprites/ItemPanels/ItemPanel3
+  dronePrefab1: {fileID: 3174001719922360106, guid: 6f41d60d5d64f6a46ad9c31d53a64c16, type: 3}
+  dronePrefab2: {fileID: 3174001719922360106, guid: b0788a434c172b246959c71d63c86879, type: 3}
+  dronePrefab3: {fileID: 3174001719922360106, guid: 59c3354ba3291374d87d4e04763a8e9a, type: 3}
+  playerRuntimeStatus: {fileID: 11400000, guid: 0a598bfa4ee358e4fa429225c0e02a94, type: 2}
+  enemyRuntimeStatus:
+  - {fileID: 11400000, guid: b8b852759d188e04b8b100f292a6ed68, type: 2}
+  - {fileID: 11400000, guid: 100f3789f61b2de45b387699415f8992, type: 2}
+  - {fileID: 11400000, guid: 26446c7dbc0eadd47950907ccd4d5d40, type: 2}
+  - {fileID: 11400000, guid: 6a49baa87131f1f49a638813c7b5354f, type: 2}
+  weaponStatusData:
+  - {fileID: 11400000, guid: a5fa8b3a9a9242b4a8fec41b891bcb22, type: 2}
+  - {fileID: 11400000, guid: 81895bc17f9b01645b542c01369f7b45, type: 2}
+  - {fileID: 11400000, guid: 383b966776065214d9d14dbce1047d9f, type: 2}
 --- !u!1 &1847354118
 GameObject:
   m_ObjectHideFlags: 0

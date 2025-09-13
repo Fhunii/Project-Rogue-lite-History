@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statusdata: {fileID: 11400000, guid: 043c4d3368323714496dad3616d7ab58, type: 2}
   MAXHP: 0
-  ATK: 1
+  ATK: 5
   SPEED: 2
   NockBack: 0
-  SPAN: 5
+  SPAN: 0.2
   EXP: 0
