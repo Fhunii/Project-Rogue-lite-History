@@ -11,6 +11,7 @@ public class StatusUpdate : MonoBehaviour
         {
             status.Initialize();
         }
+        Time.timeScale = 1f; // ゲームの時間を通常に戻す
 
     }
 
