@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4758e08bb3792d4449ce7f8d8e7f8f11, type: 3}
-  m_Name: StickManSoloSmallStatus
+  m_Name: StickManSoloLargeStatus
   m_EditorClassIdentifier: 
-  MAXHP: 1
-  ATK: 1
-  SPEED: 1
+  MAXHP: 5
+  ATK: 7
+  SPEED: 0.25
   NockBack: 0
   SPAN: 1
   EXP: 4

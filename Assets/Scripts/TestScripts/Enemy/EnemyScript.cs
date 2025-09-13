@@ -54,7 +54,7 @@ public class EnemyScript : MonoBehaviour
         if (MUTEKI)//攻撃を受けてから0.2秒後にする処理
         {
             currentTime += Time.deltaTime;
-            if (currentTime > statusdata.SPAN)
+            if (currentTime > 0.2f)
             {
                 currentTime = 0f;
                 MUTEKI = false;//無敵状態終わらせる
