@@ -6625,3 +6625,19 @@ Received Import Request.
 Start importing Assets/Scenes/GameScene.unity using Guid(197a9ee27bc606c4695e9b1487cb86f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61ceccbf04d66531276d6b6bdc4f88c3') in 0.0123752 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 92.560475 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-1.png
+  artifactKey: Guid(054d9c6dabbe4c04589a2b5cd1f8ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-1.png using Guid(054d9c6dabbe4c04589a2b5cd1f8ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dffe6a7f4b029dea1804f42165967fd') in 0.117259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.342606 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-3.png
+  artifactKey: Guid(3a50034faac2d444c83c98d7e1821a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-3.png using Guid(3a50034faac2d444c83c98d7e1821a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66084f38385789031963111d173b1544') in 0.1153366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
