@@ -35,6 +35,12 @@ public  class ExpManeger : MonoBehaviour
         {12, 60},
         {13, 70},
         {14, 80},
+        {15, 90},
+        {16, 100},
+        {17, 120},
+        {18, 140},
+        {19, 160},
+        {20, 180}
 
     };
     Vector2 PlayerPos;

@@ -6739,3 +6739,19 @@ Memory consumption went from 190.8 MB to 185.5 MB.
 Total: 22.257100 ms (FindLiveObjects: 1.187500 ms CreateObjectMapping: 1.445700 ms MarkObjects: 13.217400 ms  DeleteObjects: 6.401400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1307.724712 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(197a9ee27bc606c4695e9b1487cb86f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(197a9ee27bc606c4695e9b1487cb86f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66677e4adb67d4aa5a70256f2b26c257') in 0.015002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.969248 seconds.
+  path: Assets/ScriptableObjects/Runtime/Enemy/StickManSoloSmallRuntimeStatus.asset
+  artifactKey: Guid(b8b852759d188e04b8b100f292a6ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Runtime/Enemy/StickManSoloSmallRuntimeStatus.asset using Guid(b8b852759d188e04b8b100f292a6ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd2af79cc8760c018bb2e0ac1c28c2dc') in 0.0325546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
