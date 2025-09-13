@@ -798,3 +798,19 @@ Memory consumption went from 181.0 MB to 176.0 MB.
 Total: 19.822000 ms (FindLiveObjects: 0.954700 ms CreateObjectMapping: 1.240600 ms MarkObjects: 13.089100 ms  DeleteObjects: 4.535100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1119.237170 seconds.
+  path: Assets/Resources/Sprites/TestSprites/GameOver.png
+  artifactKey: Guid(95dcfc8233351aa4e8d42450ae9f3955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/GameOver.png using Guid(95dcfc8233351aa4e8d42450ae9f3955) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e44f3ea93371d404c52e169c39dbffb') in 0.1439087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.023643 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32e8cae9c1600285ecdc52dd7a855986') in 0.5969682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
