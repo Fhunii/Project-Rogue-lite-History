@@ -65,6 +65,7 @@ public class EnemyScript : MonoBehaviour
         }
         if (HP <= 0)//HPが0以下になったら消える
         {
+            Player.gameObject.GetComponent<PlayerHP>().Heal(1);//敵を倒したら１回復
             Hitpos = this.transform.position;
             Hitpos.z = -2f;
             Hitmark.transform.position = Hitpos;
@@ -76,10 +77,10 @@ public class EnemyScript : MonoBehaviour
                 {
 
                     var exp = Instantiate(EXP_prefab, transform.position, transform.rotation);
-                    
+
                 }
-		        Destroy(this.gameObject);
-	        }
+                Destroy(this.gameObject);
+            }
         }
     }
     public void Damage(float damage)
@@ -95,12 +96,19 @@ public class EnemyScript : MonoBehaviour
             HP -= damage;//HP減少
             MUTEKI = true;//無敵状態にする
         }
-        
+
     }
     public void NockBack(float nockback)
     {
         // プレイヤーと敵の位置ベクトルを正規化してノックバック方向を決定
         Vector2 direction = ((Vector2)(transform.position - PlayerPos)).normalized;
         rb.linearVelocity = direction * nockback;
+    }
+        void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            other.gameObject.GetComponent<PlayerHP>().Damage(statusdata.ATK);
+        }
     }
 }

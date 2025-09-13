@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    [SerializeField] StatusData statusdata;
+    [SerializeField] RuntimeStatus statusdata;
     Vector3 worldAngle;
     public SpriteRenderer spriteRenderer;
     private float currentTime;
