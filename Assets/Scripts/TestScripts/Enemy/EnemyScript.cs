@@ -34,13 +34,8 @@ public class EnemyScript : MonoBehaviour
 
     void Update()
     {
-<<<<<<< HEAD
-        PlayerPos = Player.transform.position; // プレイヤーの現在位置を取得
-        transform.position = Vector2.MoveTowards(transform.position, PlayerPos, speed * Time.deltaTime); // 現在位置からプレイヤーの位置に向けて移動
-=======
         PlayerPos = Player.transform.position;//プレイヤーの現在位置を取得
         transform.position = Vector2.MoveTowards(transform.position, PlayerPos, statusdata.SPEED * Time.deltaTime);//現在位置からプレイヤーの位置に向けて移動
->>>>>>> develop
 
         diff.x = PlayerPos.x - this.transform.position.x; // プレイヤーと敵キャラのX軸の位置関係を取得する
 
@@ -55,8 +50,6 @@ public class EnemyScript : MonoBehaviour
             vector = new Vector3(0, 0, 0);
             this.transform.eulerAngles = vector;
         }
-<<<<<<< HEAD
-=======
 
         if (MUTEKI)//攻撃を受けてから0.2秒後にする処理
         {
@@ -117,6 +110,5 @@ public class EnemyScript : MonoBehaviour
         {
             other.gameObject.GetComponent<PlayerHP>().Damage(statusdata.ATK);
         }
->>>>>>> develop
     }
 }
