@@ -9,11 +9,11 @@ public class Timer : MonoBehaviour
     [SerializeField] private GameObject gameClearUI;
 
     // タイマーの残り時間（秒）
-    private float remainingTime = 300f; // 10分 = 600秒
+    private float remainingTime = 180f; 
     void Start()
     {
         // タイマーの初期化
-        remainingTime = 300f;
+        remainingTime = 180f;
         gameClearUI.SetActive(false);
     }
 

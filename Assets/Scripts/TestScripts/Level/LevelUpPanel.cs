@@ -24,6 +24,7 @@ public class LevelUpPanel : MonoBehaviour
     [SerializeField] private RuntimeStatus[] enemyRuntimeStatus; // 敵のGameObject
     [SerializeField] private RuntimeStatus[] weaponStatusData; // 武器のGameObject
     [SerializeField] private GameObject ExitButton; // 終了ボタンのGameObject
+    [SerializeField] private PlayerHP playerHP; // プレイヤーのHP管理用インスタンス
     private Sprite[][] panelSprites; // 各パネルごとのスプライト配列
     private int[] currentIndex;      // 各パネルの現在インデックス
 
@@ -124,7 +125,7 @@ public class LevelUpPanel : MonoBehaviour
                 Debug.Log("ワーグナー");
                 foreach (var weaponStatus in weaponStatusData)
                 {
-                    weaponStatus.SPAN *= 0.9f; // 各武器の攻撃速度を10%速くする
+                    weaponStatus.SPAN *= 0.2f; // 各武器の攻撃速度を80%速くする
                 }
                 Time.timeScale = 1;
                 break;
@@ -145,17 +146,18 @@ public class LevelUpPanel : MonoBehaviour
             case "ItemPanel3-2_0":
                 Debug.Log("ナイチンゲール");
                 Time.timeScale = 1;
-                //体力を2倍にする
                 playerRuntimeStatus.MAXHP *= 2f; // プレイヤーの体力を2倍にする
+                playerHP.HP = playerRuntimeStatus.MAXHP; // 現在のHPも最大値に合わせる
                 break;
             case "ItemPanel3-3_0":
                 Debug.Log("ドイツ帝国");
                 Time.timeScale = 1;
                 //攻撃力を3倍にする
-                playerRuntimeStatus.AddATK(playerRuntimeStatus.ATK * 2); // 3倍にする
-                //武器の攻撃力は2倍にする
+                playerRuntimeStatus.AddATK(playerRuntimeStatus.ATK * 2); // 2倍にする
+                //武器の攻撃速度は2倍にする
                 foreach (var weaponStatus in weaponStatusData)
                 {
+                    weaponStatus.SPAN *= 0.5f; // 各武器の攻撃速度を早くする
                     weaponStatus.ATK *= 2f; // 各武器の攻撃力を2倍にする
                 }
                 break;
