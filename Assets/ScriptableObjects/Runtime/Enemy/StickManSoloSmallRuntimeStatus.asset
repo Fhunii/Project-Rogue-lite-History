@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: StickManSoloSmallRuntimeStatus
   m_EditorClassIdentifier: 
   statusdata: {fileID: 11400000, guid: 3f49991853096aa43adc2b1c6891694d, type: 2}
-  MAXHP: 0
-  ATK: 0
-  SPEED: 0
+  MAXHP: 2
+  ATK: 3
+  SPEED: 0.5
   NockBack: 0
-  SPAN: 0
-  EXP: 0
+  SPAN: 5
+  EXP: 1

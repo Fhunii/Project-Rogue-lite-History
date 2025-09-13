@@ -24,6 +24,7 @@ public class LevelUpPanel : MonoBehaviour
     [SerializeField] private RuntimeStatus[] enemyRuntimeStatus; // 敵のGameObject
     [SerializeField] private RuntimeStatus[] weaponStatusData; // 武器のGameObject
     [SerializeField] private GameObject ExitButton; // 終了ボタンのGameObject
+    [SerializeField] private PlayerHP playerHP; // プレイヤーのHP管理用インスタンス
     private Sprite[][] panelSprites; // 各パネルごとのスプライト配列
     private int[] currentIndex;      // 各パネルの現在インデックス
 
@@ -145,8 +146,8 @@ public class LevelUpPanel : MonoBehaviour
             case "ItemPanel3-2_0":
                 Debug.Log("ナイチンゲール");
                 Time.timeScale = 1;
-                //体力を2倍にする
                 playerRuntimeStatus.MAXHP *= 2f; // プレイヤーの体力を2倍にする
+                playerHP.HP = playerRuntimeStatus.MAXHP; // 現在のHPも最大値に合わせる
                 break;
             case "ItemPanel3-3_0":
                 Debug.Log("ドイツ帝国");
