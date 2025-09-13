@@ -10,7 +10,8 @@ public class LevelUpPanel : MonoBehaviour
     [SerializeField] private GameObject[] itemPanels;       // ItemPanel1,2,3 の GameObject
 
     [Header("Resources フォルダパス")]
-    [SerializeField] private string[] resourcePaths = {
+    [SerializeField]
+    private string[] resourcePaths = {
         "Sprites/TestSprites/ItemPanels/ItemPanel1",
         "Sprites/TestSprites/ItemPanels/ItemPanel2",
         "Sprites/TestSprites/ItemPanels/ItemPanel3"
@@ -22,6 +23,7 @@ public class LevelUpPanel : MonoBehaviour
     [SerializeField] private RuntimeStatus playerRuntimeStatus; // プレイヤーのGameObject
     [SerializeField] private RuntimeStatus[] enemyRuntimeStatus; // 敵のGameObject
     [SerializeField] private RuntimeStatus[] weaponStatusData; // 武器のGameObject
+    [SerializeField] private GameObject ExitButton; // 終了ボタンのGameObject
     private Sprite[][] panelSprites; // 各パネルごとのスプライト配列
     private int[] currentIndex;      // 各パネルの現在インデックス
 
@@ -79,7 +81,7 @@ public class LevelUpPanel : MonoBehaviour
         Sprite currentSprite = panelImage.sprite;
         string spriteName = currentSprite.name;
         Debug.Log($"クリックされたパネル {panelIndex + 1} : {spriteName}");
-        
+
         if (currentIndex[panelIndex] >= panelSprites[panelIndex].Length - 1)
         {
             Debug.Log($"パネル{panelIndex + 1}は最終進化なので処理しません。UIも閉じません。");
@@ -172,5 +174,14 @@ public class LevelUpPanel : MonoBehaviour
         }
         levelUpUI.GetComponent<Canvas>().enabled = false;
         Debug.Log("処理終わり");
+    }
+    public void OnClick()
+    {
+        // 終了ボタンが押されたらUIを閉じる
+    
+        levelUpUI.GetComponent<Canvas>().enabled = false;
+        Time.timeScale = 1; // ゲーム再開
+        Debug.Log("終了ボタンが押されました。UIを閉じます。");
+        
     }
 }
