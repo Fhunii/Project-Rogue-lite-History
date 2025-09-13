@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: StickManTrioSmallStatus
   m_EditorClassIdentifier: 
   MAXHP: 4
-  ATK: 1
-  SPEED: 0.7
+  ATK: 5
+  SPEED: 0.4
   NockBack: 0
-  SPAN: 2
-  EXP: 3
+  SPAN: 3
+  EXP: 2

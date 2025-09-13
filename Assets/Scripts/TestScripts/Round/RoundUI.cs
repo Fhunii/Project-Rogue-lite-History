@@ -11,6 +11,7 @@ public class RoundUI : MonoBehaviour
     void Start()
     {
         RoundUIObject.SetActive(false);
+        roundImage.sprite = roundImages[0];
     }
 
     public void ChangeRoundImage()

@@ -44,6 +44,8 @@ public class EnemyGeneratorScript : MonoBehaviour
         span4 = EnemyStatusData4.SPAN;
         prefabToSpawn = EnemyPrefab1;
         spanToUse = span1;
+        currentRound = 1;
+        newRound = 1;
     }
 
     void Update()
