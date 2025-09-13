@@ -1451,3 +1451,31 @@ Received Import Request.
 Start importing Assets/Scripts/TestScripts/Level/LevelUpPanel.cs using Guid(628445838070adc4690dbc0f6a9094fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c468b9572085a07d850be38dfe74929') in 0.1094595 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 1355.226246 seconds.
+  path: Assets/Prefab/Prefab/Enemy/StickManSoloLarge.prefab
+  artifactKey: Guid(86b5d0f81db26de43bdea73a6b411be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/Enemy/StickManSoloLarge.prefab using Guid(86b5d0f81db26de43bdea73a6b411be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64a62d4e765044258b9f534fc4f79007') in 0.7220761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefab/Prefab/Enemy/StickManTrioSmall.prefab
+  artifactKey: Guid(edc9082270eda954c977e6cbf4251192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/Enemy/StickManTrioSmall.prefab using Guid(edc9082270eda954c977e6cbf4251192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '525d0fc541ddc6c0e96b642a6d48c355') in 0.0282455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefab/Prefab/Weapon/Flintrock.prefab
+  artifactKey: Guid(6f41d60d5d64f6a46ad9c31d53a64c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/Weapon/Flintrock.prefab using Guid(6f41d60d5d64f6a46ad9c31d53a64c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '649dbab097371a2c42d9d01468a4f304') in 0.0204651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

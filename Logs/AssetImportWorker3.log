@@ -1419,3 +1419,39 @@ Memory consumption went from 187.0 MB to 182.5 MB.
 Total: 16.632000 ms (FindLiveObjects: 0.949700 ms CreateObjectMapping: 1.124500 ms MarkObjects: 10.236800 ms  DeleteObjects: 4.318900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1602.879291 seconds.
+  path: Assets/Prefab/Prefab/Enemy/StickManSoloSmall.prefab
+  artifactKey: Guid(4dd623ffad35324448d89d6ac7734e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/Enemy/StickManSoloSmall.prefab using Guid(4dd623ffad35324448d89d6ac7734e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84024d393cae64f10e1e1bead39825c5') in 0.7010873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Prefab/Prefab/Weapon/Enfield.prefab
+  artifactKey: Guid(b0788a434c172b246959c71d63c86879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/Weapon/Enfield.prefab using Guid(b0788a434c172b246959c71d63c86879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db500fc4e4884e0b3eafafafdd4a5805') in 0.0252736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefab/Prefab/Enemy/StickManTrioLarge.prefab
+  artifactKey: Guid(60f388a203ab4834d83df428ce6b6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/Enemy/StickManTrioLarge.prefab using Guid(60f388a203ab4834d83df428ce6b6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7e7f4578687f69c3aca632947ca0a3b') in 0.0197541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefab/Prefab/Weapon/Shaspo.prefab
+  artifactKey: Guid(59c3354ba3291374d87d4e04763a8e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Prefab/Weapon/Shaspo.prefab using Guid(59c3354ba3291374d87d4e04763a8e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd95da277ae194c7b3624b7edbbb8f9d0') in 0.0175592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
