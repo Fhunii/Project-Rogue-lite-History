@@ -1,10 +1,12 @@
 using UnityEngine;
 using TMPro;
+using UnityEditor.ShortcutManagement;
 
 public class Timer : MonoBehaviour
 {
     // TextMeshProの参照をInspectorで割り当てる
     public TMP_Text timerText;
+    [SerializeField] private GameObject gameClearUI;
 
     // タイマーの残り時間（秒）
     private float remainingTime = 300f; // 10分 = 600秒
@@ -12,6 +14,7 @@ public class Timer : MonoBehaviour
     {
         // タイマーの初期化
         remainingTime = 300f;
+        gameClearUI.SetActive(false);
     }
 
     void Update()
@@ -35,6 +38,8 @@ public class Timer : MonoBehaviour
         else
         {
             // タイムアップ時の処理
+            gameClearUI.SetActive(true);
+            Time.timeScale = 0f; // ゲームを停止
 
             // ここにタイムアップ時の追加処理を記述できます
         }
