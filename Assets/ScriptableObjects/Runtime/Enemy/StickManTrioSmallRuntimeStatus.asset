@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: StickManTrioSmallRuntimeStatus
   m_EditorClassIdentifier: 
   statusdata: {fileID: 11400000, guid: aae122cdc8dda1a4b82526660f1afb19, type: 2}
-  MAXHP: 5
-  ATK: 2
-  SPEED: 0.3
+  MAXHP: 4
+  ATK: 4
+  SPEED: 0.4
   NockBack: 0
   SPAN: 3
-  EXP: 10
+  EXP: 125
