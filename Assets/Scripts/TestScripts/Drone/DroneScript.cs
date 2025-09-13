@@ -17,22 +17,24 @@ public class DroneScript : MonoBehaviour
 
     void Start()
     {
-        Player =GameObject.FindGameObjectWithTag("Player");//PlayerというTagを持つオブジェクト検索する。
-        PlayerPos=Player.transform.position;
+        Player = GameObject.FindGameObjectWithTag("Player");//PlayerというTagを持つオブジェクト検索する。
+        PlayerPos = Player.transform.position;
         this.transform.parent = Player.transform;//生成された時自分自身をプレイヤーの子要素にする
         Search();
         PositionSet();
         audioSource = GetComponent<AudioSource>();
+
     }
-    
+
     void Update()
     {
         currentTime += Time.deltaTime;
         if (currentTime > runtimeStatus.SPAN)
         {
-            Debug.Log("RayStatus.SPAN:"+runtimeStatus.SPAN);
+
             RayGenerate();
             currentTime = 0f;
+
         }
     }
     public void RayGenerate()

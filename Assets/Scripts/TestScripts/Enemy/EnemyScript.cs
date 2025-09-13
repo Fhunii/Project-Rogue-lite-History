@@ -8,7 +8,7 @@ public class EnemyScript : MonoBehaviour
     GameObject Player;
     Vector3 PlayerPos;
 
-    [SerializeField] StatusData statusdata;//☑
+    [SerializeField] RuntimeStatus statusdata;//☑
 
     [SerializeField] GameObject Hitmark;//☑
     Vector3 Hitpos;//☑
@@ -93,7 +93,6 @@ public class EnemyScript : MonoBehaviour
             Hitmark.transform.position = Hitpos;//ヒットマークの画像位置を移動させる
             Hitmark.GetComponent<SpriteRenderer>().enabled = true; //ヒットマーク画像を表示する☑
             HP -= damage;//HP減少
-            Debug.Log(HP);//現在のHPを表示
             MUTEKI = true;//無敵状態にする
         }
         

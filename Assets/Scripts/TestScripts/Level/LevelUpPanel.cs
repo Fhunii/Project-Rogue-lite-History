@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems; // EventTriggerを扱うために必要
+using UnityEngine.EventSystems;
+using Unity.VisualScripting; // EventTriggerを扱うために必要
 
 public class LevelUpPanel : MonoBehaviour
 {
@@ -15,6 +16,12 @@ public class LevelUpPanel : MonoBehaviour
         "Sprites/TestSprites/ItemPanels/ItemPanel3"
     };
 
+    [SerializeField] private GameObject dronePrefab1; // ドローンのプレハブ
+    [SerializeField] private GameObject dronePrefab2; // ドローン強化のプレハブ
+    [SerializeField] private GameObject dronePrefab3; // ドローン最終強化のプレハブ
+    [SerializeField] private RuntimeStatus playerRuntimeStatus; // プレイヤーのGameObject
+    [SerializeField] private RuntimeStatus[] enemyRuntimeStatus; // 敵のGameObject
+    [SerializeField] private RuntimeStatus[] weaponStatusData; // 武器のGameObject
     private Sprite[][] panelSprites; // 各パネルごとのスプライト配列
     private int[] currentIndex;      // 各パネルの現在インデックス
 
@@ -83,42 +90,72 @@ public class LevelUpPanel : MonoBehaviour
         switch (spriteName)
         {
             case "ItemPanel1-1_0":
-                Debug.Log("ドローンを付与する処理");
+                Debug.Log("フリントロック");
                 Time.timeScale = 1;
+                Instantiate(dronePrefab1);
                 break;
             case "ItemPanel1-2_0":
-                Debug.Log("ドローンを強化する処理");
+                Debug.Log("エンフィールド");
                 Time.timeScale = 1;
+                Instantiate(dronePrefab2);
                 break;
             case "ItemPanel1-3_0":
-                Debug.Log("ドローン最終強化");
+                Debug.Log("シャスポー");
                 Time.timeScale = 1;
+                Instantiate(dronePrefab3);
                 break;
 
             case "ItemPanel2-1_0":
-                Debug.Log("パンチを付与");
+                Debug.Log("ロマン主義");
                 Time.timeScale = 1;
+                playerRuntimeStatus.AddATK(2.0f); // ATKを2.0増加
                 break;
             case "ItemPanel2-2_0":
-                Debug.Log("パンチ強化");
+                Debug.Log("印象派");
                 Time.timeScale = 1;
+                foreach (var enemyStatus in enemyRuntimeStatus)
+                {
+                    enemyStatus.AddATK(-1.0f); // 各敵のATKを1.0減少
+                }
                 break;
             case "ItemPanel2-3_0":
-                Debug.Log("パンチ最終強化");
+                Debug.Log("ワーグナー");
+                foreach (var weaponStatus in weaponStatusData)
+                {
+                    weaponStatus.SPAN *= 0.9f; // 各武器の攻撃速度を10%速くする
+                }
                 Time.timeScale = 1;
                 break;
 
             case "ItemPanel3-1_0":
-                Debug.Log("聖水を付与");
+                Debug.Log("ウィーン体制");
                 Time.timeScale = 1;
+                //武器の攻撃速度を25%遅くする代わりに武器の攻撃力を2倍にする
+                foreach (var weaponStatus in weaponStatusData)
+                {
+                    weaponStatus.SPAN *= 1.25f; // 各武器の攻撃速度を25%遅くする
+                }
+                foreach (var weaponStatus in weaponStatusData)
+                {
+                    weaponStatus.ATK *= 2f; // 各武器の攻撃力を2倍にする
+                }
                 break;
             case "ItemPanel3-2_0":
-                Debug.Log("聖水強化");
+                Debug.Log("ナイチンゲール");
                 Time.timeScale = 1;
+                //体力を2倍にする
+                playerRuntimeStatus.MAXHP *= 2f; // プレイヤーの体力を2倍にする
                 break;
             case "ItemPanel3-3_0":
-                Debug.Log("聖水最終強化");
+                Debug.Log("ドイツ帝国");
                 Time.timeScale = 1;
+                //攻撃力を3倍にする
+                playerRuntimeStatus.AddATK(playerRuntimeStatus.ATK * 2); // 3倍にする
+                //武器の攻撃力は2倍にする
+                foreach (var weaponStatus in weaponStatusData)
+                {
+                    weaponStatus.ATK *= 2f; // 各武器の攻撃力を2倍にする
+                }
                 break;
         }
 

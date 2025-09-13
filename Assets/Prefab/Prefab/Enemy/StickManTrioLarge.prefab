@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6ec312159b4c74f86fbd896de547ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statusdata: {fileID: 11400000, guid: 523f80b87d4595744943a6ce1678eeda, type: 2}
+  statusdata: {fileID: 11400000, guid: 6a49baa87131f1f49a638813c7b5354f, type: 2}
   Hitmark: {fileID: 7760387020017008887}
   EXP_prefab: {fileID: 6472063278381984312, guid: 71111c263880764468268536136a370f, type: 3}
 --- !u!50 &5923386339397668296
