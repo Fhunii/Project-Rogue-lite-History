@@ -125,7 +125,7 @@ public class LevelUpPanel : MonoBehaviour
                 Debug.Log("ワーグナー");
                 foreach (var weaponStatus in weaponStatusData)
                 {
-                    weaponStatus.SPAN *= 0.9f; // 各武器の攻撃速度を10%速くする
+                    weaponStatus.SPAN *= 0.2f; // 各武器の攻撃速度を80%速くする
                 }
                 Time.timeScale = 1;
                 break;
@@ -153,11 +153,12 @@ public class LevelUpPanel : MonoBehaviour
                 Debug.Log("ドイツ帝国");
                 Time.timeScale = 1;
                 //攻撃力を3倍にする
-                playerRuntimeStatus.AddATK(playerRuntimeStatus.ATK * 2); // 3倍にする
+                playerRuntimeStatus.AddATK(playerRuntimeStatus.ATK * 2); // 2倍にする
                 //武器の攻撃速度は2倍にする
                 foreach (var weaponStatus in weaponStatusData)
                 {
                     weaponStatus.SPAN *= 0.5f; // 各武器の攻撃速度を早くする
+                    weaponStatus.ATK *= 2f; // 各武器の攻撃力を2倍にする
                 }
                 break;
         }

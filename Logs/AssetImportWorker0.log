@@ -3739,3 +3739,546 @@ Received Import Request.
 Start importing Assets/ScriptableObjects/Runtime/Enemy/StickManSoloSmallRuntimeStatus.asset using Guid(b8b852759d188e04b8b100f292a6ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd479a8af80a5c704fadca2b3c089d069') in 0.0522951 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.653 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.461 seconds
+Domain Reload Profiling: 4113ms
+	BeginReloadAssembly (1547ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (322ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (615ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (1013ms)
+		LoadAssemblies (910ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (267ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (947ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (608ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 3.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (4.6 MB). Loaded Objects now: 7612.
+Memory consumption went from 187.1 MB to 182.5 MB.
+Total: 29.122400 ms (FindLiveObjects: 4.698700 ms CreateObjectMapping: 1.591900 ms MarkObjects: 17.065600 ms  DeleteObjects: 5.759900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2639.893894 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-1.png
+  artifactKey: Guid(c10632c2f693305428865a05ec59fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-1.png using Guid(c10632c2f693305428865a05ec59fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e1a4f93dcf958f66b26399cd8f0c197') in 0.2122513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-3.png
+  artifactKey: Guid(c453e17ce6decaf41aff7b745f36a79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-3.png using Guid(c453e17ce6decaf41aff7b745f36a79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acdf0e568ce63d467e88e80faad4e416') in 0.0248575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-4.png
+  artifactKey: Guid(187d5d9e5ef5e5b4595b82b72bbe2245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-4.png using Guid(187d5d9e5ef5e5b4595b82b72bbe2245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '122ec9047800e1b1a4809f47373e7a14') in 0.0173258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.985 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.427 seconds
+Domain Reload Profiling: 2413ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (644ms)
+		LoadAssemblies (474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (258ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1428ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1059ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (216ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (5.5 MB). Loaded Objects now: 7620.
+Memory consumption went from 187.2 MB to 181.7 MB.
+Total: 19.853900 ms (FindLiveObjects: 1.038700 ms CreateObjectMapping: 1.174800 ms MarkObjects: 11.489900 ms  DeleteObjects: 6.138700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.176 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.316 seconds
+Domain Reload Profiling: 2489ms
+	BeginReloadAssembly (353ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (703ms)
+		LoadAssemblies (592ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (257ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (967ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (232ms)
+			ProcessInitializeOnLoadAttributes (599ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 3.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (5.3 MB). Loaded Objects now: 7622.
+Memory consumption went from 187.2 MB to 181.8 MB.
+Total: 18.158900 ms (FindLiveObjects: 0.988200 ms CreateObjectMapping: 1.290800 ms MarkObjects: 10.625300 ms  DeleteObjects: 5.252000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 124.579366 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-1.png
+  artifactKey: Guid(c10632c2f693305428865a05ec59fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-1.png using Guid(c10632c2f693305428865a05ec59fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '318b4a7b4f95ac55535a4b5cb8f1863f') in 0.093974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.957 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.425 seconds
+Domain Reload Profiling: 2380ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (626ms)
+		LoadAssemblies (456ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (282ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (257ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1426ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1035ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (703ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 4.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (5.0 MB). Loaded Objects now: 7624.
+Memory consumption went from 187.2 MB to 182.2 MB.
+Total: 25.394700 ms (FindLiveObjects: 1.188400 ms CreateObjectMapping: 1.726400 ms MarkObjects: 15.077200 ms  DeleteObjects: 7.390000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 300.131722 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-1.png
+  artifactKey: Guid(c10632c2f693305428865a05ec59fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-1.png using Guid(c10632c2f693305428865a05ec59fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f21fb83bb138e100357f16f97820bcf') in 0.0950362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.371604 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-2.png
+  artifactKey: Guid(77d7b7daaab48274a9e5117d0f56fe70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-2.png using Guid(77d7b7daaab48274a9e5117d0f56fe70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a6511add21288e2a68596a978ac8aa4') in 0.1303705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.649868 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-3.png
+  artifactKey: Guid(c453e17ce6decaf41aff7b745f36a79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-3.png using Guid(c453e17ce6decaf41aff7b745f36a79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b636a7322d4a9c4e389e2fb2cc7a7f7b') in 0.1244562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.216751 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-4.png
+  artifactKey: Guid(187d5d9e5ef5e5b4595b82b72bbe2245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel1/ItemPanel1-4.png using Guid(187d5d9e5ef5e5b4595b82b72bbe2245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7f11cfbafdcf954d6eed4aa3f7ebbee') in 0.0280778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.556685 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-1.png
+  artifactKey: Guid(054d9c6dabbe4c04589a2b5cd1f8ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-1.png using Guid(054d9c6dabbe4c04589a2b5cd1f8ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3b2371b7643e0536d67fdfcccba114b') in 0.0409357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-4.png
+  artifactKey: Guid(7f6e9f0a96031c6418d490f8a5ae045f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-4.png using Guid(7f6e9f0a96031c6418d490f8a5ae045f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acf2486e885c97c1cfc3ec287de3bf55') in 0.0193389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-3.png
+  artifactKey: Guid(3a50034faac2d444c83c98d7e1821a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-3.png using Guid(3a50034faac2d444c83c98d7e1821a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05e9e0c7de8859fbcdab5fb74e952040') in 0.0212627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.301236 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-1.png
+  artifactKey: Guid(054d9c6dabbe4c04589a2b5cd1f8ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-1.png using Guid(054d9c6dabbe4c04589a2b5cd1f8ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2b030b4243ef26f33f520bc21e852d7') in 0.1480638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.554708 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-2.png
+  artifactKey: Guid(71faa05336031da44ad215367be5d4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-2.png using Guid(71faa05336031da44ad215367be5d4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e7ef5e327de92835fd0779a2f077630') in 0.0222625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.464861 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-3.png
+  artifactKey: Guid(3a50034faac2d444c83c98d7e1821a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-3.png using Guid(3a50034faac2d444c83c98d7e1821a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ddf44cb5683ac26a4a5729d90d85a55') in 0.0141417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.836122 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-4.png
+  artifactKey: Guid(7f6e9f0a96031c6418d490f8a5ae045f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-4.png using Guid(7f6e9f0a96031c6418d490f8a5ae045f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de56c9fb70b6682f0ab635429414c7e7') in 0.0128611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.462237 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-1.png
+  artifactKey: Guid(1dde7169ece2fa24a82f46652323aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-1.png using Guid(1dde7169ece2fa24a82f46652323aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e212ac96e1fe081fa2a2494f15e57cb2') in 0.0210763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-3.png
+  artifactKey: Guid(5087653864a89674fac6b9c6e4458816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-3.png using Guid(5087653864a89674fac6b9c6e4458816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb0e3b176e79c27a3ffa00dde4fcd89f') in 0.0257579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.290874 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-1.png
+  artifactKey: Guid(1dde7169ece2fa24a82f46652323aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-1.png using Guid(1dde7169ece2fa24a82f46652323aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de365f5b61ca239557b5b6a10805cc5b') in 0.013336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.229451 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-2.png
+  artifactKey: Guid(023c78bfe2e4c664db62d3291bbede44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-2.png using Guid(023c78bfe2e4c664db62d3291bbede44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea901bf276d50512e5b623847807ff7f') in 0.0340417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.889265 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-3.png
+  artifactKey: Guid(5087653864a89674fac6b9c6e4458816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-3.png using Guid(5087653864a89674fac6b9c6e4458816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0352683f9e4ad9c7d5a3393050491ff6') in 0.0940499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.867510 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-4.png
+  artifactKey: Guid(7a45f14306dc5c049b7cbccd51e686f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-4.png using Guid(7a45f14306dc5c049b7cbccd51e686f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5ef06405e8621ad0cf3419fe5fbc617') in 0.1034635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.045 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.561 seconds
+Domain Reload Profiling: 2604ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (671ms)
+		LoadAssemblies (525ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (243ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1562ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1156ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (247ms)
+			ProcessInitializeOnLoadAttributes (727ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 3.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (2.1 MB). Loaded Objects now: 7638.
+Memory consumption went from 187.2 MB to 185.1 MB.
+Total: 20.012000 ms (FindLiveObjects: 1.101600 ms CreateObjectMapping: 1.408100 ms MarkObjects: 11.972900 ms  DeleteObjects: 5.526500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 357.838567 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-1.png
+  artifactKey: Guid(1dde7169ece2fa24a82f46652323aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-1.png using Guid(1dde7169ece2fa24a82f46652323aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23a5d4a2e0c92102a7b1e3e64989cce9') in 0.1266561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-3.png
+  artifactKey: Guid(5087653864a89674fac6b9c6e4458816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel3/ItemPanel3-3.png using Guid(5087653864a89674fac6b9c6e4458816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16c04caffe5cf1c694afad4937b8ca5e') in 0.0463611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.080 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.251 seconds
+Domain Reload Profiling: 2328ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (687ms)
+		LoadAssemblies (570ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (237ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1251ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (883ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (4.8 MB). Loaded Objects now: 7640.
+Memory consumption went from 187.1 MB to 182.3 MB.
+Total: 17.526700 ms (FindLiveObjects: 0.936400 ms CreateObjectMapping: 1.168900 ms MarkObjects: 10.783700 ms  DeleteObjects: 4.634800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.097 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.319 seconds
+Domain Reload Profiling: 2415ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (700ms)
+		LoadAssemblies (573ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (258ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (5.1 MB). Loaded Objects now: 7642.
+Memory consumption went from 187.2 MB to 182.1 MB.
+Total: 18.630300 ms (FindLiveObjects: 1.003700 ms CreateObjectMapping: 1.186600 ms MarkObjects: 11.345000 ms  DeleteObjects: 5.092300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.506244 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-1.png
+  artifactKey: Guid(054d9c6dabbe4c04589a2b5cd1f8ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-1.png using Guid(054d9c6dabbe4c04589a2b5cd1f8ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42bb095c17d4fc488c6eb8a66f185fcd') in 0.078215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-3.png
+  artifactKey: Guid(3a50034faac2d444c83c98d7e1821a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-3.png using Guid(3a50034faac2d444c83c98d7e1821a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d90e077e3e56ee8d235cbf81cd563c0') in 0.022404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
