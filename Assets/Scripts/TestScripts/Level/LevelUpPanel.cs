@@ -153,10 +153,10 @@ public class LevelUpPanel : MonoBehaviour
                 Time.timeScale = 1;
                 //攻撃力を3倍にする
                 playerRuntimeStatus.AddATK(playerRuntimeStatus.ATK * 2); // 3倍にする
-                //武器の攻撃力は2倍にする
+                //武器の攻撃速度は2倍にする
                 foreach (var weaponStatus in weaponStatusData)
                 {
-                    weaponStatus.ATK *= 2f; // 各武器の攻撃力を2倍にする
+                    weaponStatus.SPAN *= 0.5f; // 各武器の攻撃速度を早くする
                 }
                 break;
         }
