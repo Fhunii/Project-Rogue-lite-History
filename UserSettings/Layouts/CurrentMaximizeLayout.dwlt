@@ -763,7 +763,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 185.71696, y: 202.18617, z: -2.9694672}
     speed: 2
-    m_Value: {x: 185.78981, y: 202.12234, z: -2.9730062}
+    m_Value: {x: 185.71696, y: 202.18617, z: -2.9694672}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -815,7 +815,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 471.5471
     speed: 2
-    m_Value: 471.901
+    m_Value: 471.5471
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1009,9 +1009,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c02d0100
-      m_LastClickedID: 77248
-      m_ExpandedIDs: 200ffcffc60ffcffb011fcff801efcff6c5efcff9cb4fcff5a2dfdfff436fdff0e46fdff8266fdff12e8fdff7605feffa005feff940cfeff5a65feff6c29ffff2c5bffff3670ffffa47dffff1ab0ffffe8b2ffffb6b3ffff5cb4ffff9ab5ffffe8faffff58af00007aaf0000d0bf0000b4c00000bcc00000aed300006cd40000d6d80000a4db000020dc0000f4f60000fef600005cf70000fe090100140a0100280a0100ea1c0100f41c0100521d0100f82101003e220100e4220100ec220100
+      m_SelectedIDs: 46ae0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 12dafbff8ce2fbff0402fcff5007fcff200ffcffc60ffcffb011fcff801efcff6c5efcff9cb4fcff5a2dfdfff436fdff0e46fdff8266fdff12e8fdff7605feffa005feff940cfeff5a65feff6c29ffff2c5bffff3670ffffa47dffff1ab0ffffe8b2ffffb6b3ffff5cb4ffff9ab5ffffe8faffff58af00007aaf0000d0bf0000b4c00000bcc00000aed300006cd40000d6d80000a4db000020dc0000f4f60000fef600005cf70000fe090100140a0100280a0100ea1c0100f41c0100521d0100f82101003e220100e4220100ec22010014450100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1053,7 +1053,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 943.3333
     y: 0
-    width: 265.3333
+    width: 330.00006
     height: 861.3334
   m_MinSize: {x: 52, y: 76}
   m_MaxSize: {x: 4002, y: 4026}
@@ -1085,7 +1085,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 943.3334
     y: 78.66667
-    width: 263.3333
+    width: 328.00006
     height: 835.3334
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1113,9 +1113,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1208.6666
+    x: 1273.3334
     y: 0
-    width: 179.33337
+    width: 114.666626
     height: 861.3334
   m_MinSize: {x: 232, y: 276}
   m_MaxSize: {x: 10002, y: 10026}
@@ -1145,9 +1145,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1209.6666
-    y: 24
-    width: 177.33337
+    x: 1273.3334
+    y: 78.66667
+    width: 112.666626
     height: 835.3334
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1171,7 +1171,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/ScriptableObjects/Runtime/Enemy
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1181,16 +1181,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/ScriptableObjects/Runtime/Enemy
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ryosa\Desktop\unity project\Project-Rogue-lite-History
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 44b30000
-    m_LastClickedID: 45892
-    m_ExpandedIDs: 00000000b6b20000bab20000beb20000c0b20000c2b20000c4b20000c6b20000c8b20000cab20000ccb20000ceb20000d2b20000d4b20000d6b20000d8b2000042b3000022b400008adc0000b6dc000000ca9a3b
+    m_SelectedIDs: 98dc0000
+    m_LastClickedID: 56472
+    m_ExpandedIDs: 00000000b6b20000bab20000bcb20000beb20000c0b20000c2b20000c4b20000c6b20000c8b20000cab20000ccb20000ceb20000d2b20000d4b20000d6b20000d8b2000042b3000022b400008adc0000b6dc000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1245,10 +1245,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c02d0100
-    m_LastClickedInstanceID: 77248
+    m_SelectedInstanceIDs: 46ae0000
+    m_LastClickedInstanceID: 44614
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 22b10000a6ad0000e2ae0000b8b10000eeb40000feaf0000a8af0000b4af0000000000002ab00000f4b10000fcb10000d6b10000ecb10000
+    m_ExpandedInstanceIDs: 22b10000a6ad0000e2ae0000b8b10000eeb40000feaf0000a8af0000b4af0000000000002ab00000f4b10000fcb10000d6b10000ecb1000022b0000024b00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1276,7 +1276,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 127.333374
+  m_DirectoriesAreaWidth: 52
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1324,8 +1324,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1389
-    y: 24
+    x: 1388
+    y: 78.66667
     width: 317.66675
     height: 835.3334
   m_SerializedDataModeController:
