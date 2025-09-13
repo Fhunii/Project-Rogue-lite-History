@@ -4282,3 +4282,11 @@ Received Import Request.
 Start importing Assets/Resources/Sprites/TestSprites/ItemPanels/ItemPanel2/ItemPanel2-3.png using Guid(3a50034faac2d444c83c98d7e1821a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d90e077e3e56ee8d235cbf81cd563c0') in 0.022404 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 115.864429 seconds.
+  path: Assets/ScriptableObjects/Runtime/Enemy/StickManSoloSmallRuntimeStatus.asset
+  artifactKey: Guid(b8b852759d188e04b8b100f292a6ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Runtime/Enemy/StickManSoloSmallRuntimeStatus.asset using Guid(b8b852759d188e04b8b100f292a6ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e97fa15950749e9fcfadd1c8c5b9283') in 0.0027534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
