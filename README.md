@@ -1,4 +1,4 @@
-# Project-Rogue-lite-History
+# chronuslay
 
 ## 概要
 **Project-Rogue-lite-History** は、Unity で開発されたローグライクサバイバー系ゲームです。  
